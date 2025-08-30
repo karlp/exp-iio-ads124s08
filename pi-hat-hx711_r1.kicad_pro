@@ -616,6 +616,12 @@
           "label": "lcsc2#",
           "name": "lcsc2#",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "jlcbasic",
+          "name": "jlcbasic",
+          "show": false
         }
       ],
       "filter_string": "",
