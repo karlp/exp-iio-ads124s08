@@ -692,6 +692,10 @@
     [
       "fdbfdc15-850a-4ffd-858c-b9b4d340c2f9",
       "power"
+    ],
+    [
+      "c6a2984f-bea9-4fd5-89c5-8bfdade63ac6",
+      "Analog"
     ]
   ],
   "text_variables": {}
