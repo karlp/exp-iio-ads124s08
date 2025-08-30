@@ -1880,146 +1880,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -4048,6 +3908,17 @@
 		)
 		(uuid "36e2c557-2c2a-4fba-9b6f-1167ab8ec281")
 	)
+	(text "TODO:\nadd boost to ~6V block... (shared for all future boards)\nfinish wiring up this fucker...\nset up pin connections!\nchanges for other boards?\n=> AA filters,\n=> just the ananlog side then!\n"
+		(exclude_from_sim no)
+		(at 140.97 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dc5064f-4e24-4477-98d8-c72423231265")
+	)
 	(text "Double it? no reason not too!"
 		(exclude_from_sim no)
 		(at 203.2 21.082 0)
@@ -5044,6 +4915,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 165.1) (xy 67.31 175.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "bd3be3b5-0cd1-4141-ae09-0d872c8d64ad")
+	)
+	(wire
+		(pts
 			(xy 76.2 33.02) (xy 73.66 33.02)
 		)
 		(stroke
@@ -5091,16 +4972,6 @@
 			(type default)
 		)
 		(uuid "d1af9c2b-c2ea-42c5-bf66-3b74e8f75fdc")
-	)
-	(wire
-		(pts
-			(xy 67.31 165.1) (xy 67.31 175.26)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "d4943e77-b82c-4b31-b869-1ebef0c1006a")
 	)
 	(wire
 		(pts
@@ -6211,34 +6082,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "karl-marel-atomics:KC0603_100nF")
 		(at 67.31 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f7872a7-de47-41d5-a21f-9934102d3a5f")
+		(fields_autoplaced yes)
+		(uuid "2572ab07-43a2-4215-addb-2e1c5d60ac66")
 		(property "Reference" "C1"
-			(at 64.9858 176.6506 0)
+			(at 69.85 176.0271 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 64.9858 178.9493 0)
+		(property "Value" "100nF"
+			(at 69.85 178.5671 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.31 177.8 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 66.802 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,8 +6127,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 67.31 177.8 0)
+		(property "Description" "50V, X7R"
+			(at 67.31 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,8 +6136,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 67.31 177.8 0)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 67.056 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,14 +6145,23 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e13b4ec0-0b1a-4833-a57f-adf38fe98aef")
+		(property "LCSC Part #" "C14663"
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "9ff3840e-e443-49e8-9fe8-411a314c02cc")
+			(uuid "089fe29a-6f81-4fd6-b4e3-9d4d3d21478a")
+		)
+		(pin "1"
+			(uuid "8eb1a9c1-58aa-4a57-952e-1172138cc50b")
 		)
 		(instances
-			(project "RaspberryPi-HAT"
+			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C1")
 					(unit 1)
