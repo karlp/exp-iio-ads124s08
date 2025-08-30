@@ -3627,6 +3627,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 99.06) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c07536a-70a1-4331-a3cb-c7e9494ea3cf")
+	)
+	(wire
+		(pts
 			(xy 58.42 58.42) (xy 60.96 58.42)
 		)
 		(stroke
@@ -3977,6 +3987,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f4a543-bcec-4358-b00e-16d8d1f286bd")
+	)
+	(wire
+		(pts
 			(xy 31.75 45.72) (xy 60.96 45.72)
 		)
 		(stroke
@@ -4117,6 +4137,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 101.6) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81cc93e-790f-4525-8071-f4630203b1bf")
+	)
+	(wire
+		(pts
 			(xy 185.42 93.98) (xy 177.8 93.98)
 		)
 		(stroke
@@ -4124,6 +4154,16 @@
 			(type default)
 		)
 		(uuid "cd0eb2c0-e8e7-4cad-99f7-70df925cbf82")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce75269a-cbb4-4694-90ec-437ef2137d43")
 	)
 	(wire
 		(pts
@@ -4405,6 +4445,16 @@
 		)
 		(uuid "31b15bb4-e7a6-46f1-aabc-e5f3cca1ba4f")
 	)
+	(label "GPIO11{slash}SPI0.SCLK"
+		(at 127 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31bd5949-6e86-40f9-a5bc-4bb8206f0f6b")
+	)
 	(label "GPIO19{slash}PCM.FS"
 		(at 31.75 71.12 0)
 		(effects
@@ -4454,6 +4504,16 @@
 			(justify left bottom)
 		)
 		(uuid "45778bcd-6cd2-4fc6-841f-4bc70f3ab7c0")
+	)
+	(label "GPIO9{slash}SPI0.MISO"
+		(at 127 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e728ed1-2e6d-49d2-9d45-85f3a6d24461")
 	)
 	(label "GPIO4{slash}GPCLK0"
 		(at 31.75 35.56 0)
@@ -4534,6 +4594,16 @@
 			(justify right bottom)
 		)
 		(uuid "6a63dbe8-50e2-4ffb-a55f-e0df0f695e9b")
+	)
+	(label "GPIO8{slash}SPI0.CE0"
+		(at 127 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6dc9d585-5363-4da4-9763-21c01bc77305")
 	)
 	(label "REFIN1-"
 		(at 236.22 104.14 0)
@@ -4714,6 +4784,16 @@
 			(justify left bottom)
 		)
 		(uuid "e0adbb53-d870-412c-bf86-89956aeb12be")
+	)
+	(label "GPIO13{slash}PWM1"
+		(at 127 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1ed397c-46fc-4d41-b8ee-02f5f03a3811")
 	)
 	(label "BR_OUT1+"
 		(at 236.22 99.06 0)
@@ -5385,7 +5465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 96.52 180.34 0)
 			(effects
 				(font
@@ -6700,6 +6780,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DCLK" input
+			(at 139.7 93.98 180)
+			(uuid "a14ad666-fa1c-42dd-b1e8-2051dafe0c6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 139.7 96.52 180)
+			(uuid "5e878f73-7ded-4aeb-a815-39e7a80a6d58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D_RATE" input
+			(at 139.7 99.06 180)
+			(uuid "e7c45f30-8294-4eb3-8960-5befcac0fea3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_CLK_IN" input
+			(at 139.7 101.6 180)
+			(uuid "5bf03939-0e42-4c44-83e6-e5009503b80a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

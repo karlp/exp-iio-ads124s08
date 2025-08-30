@@ -375,27 +375,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
+		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.762)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -403,7 +403,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -412,6 +412,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -420,7 +429,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Jumper, 2-pole, open"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -429,7 +438,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Jumper SPST"
+			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -438,30 +447,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
+			(symbol "TestPoint_0_1"
 				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 0 3.302)
+					(radius 0.762)
 					(stroke
 						(width 0)
 						(type default)
@@ -471,25 +460,11 @@
 					)
 				)
 			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
+			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at 0 0 90)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -497,24 +472,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -849,6 +806,172 @@
 				)
 			)
 			(symbol "KC0603_100nF_1_1"
+				(text "0603"
+					(at -1.524 1.27 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "karl-marel-atomics:KC0603_33pF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "33pF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -0.508 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V, X7R"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL10C330JB8NNNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C1663"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KC0603_33pF_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KC0603_33pF_1_1"
 				(text "0603"
 					(at -1.524 1.27 0)
 					(effects
@@ -2026,6 +2149,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "HX711 can't do a damn thing with 6 wire sensors"
+		(exclude_from_sim no)
+		(at 75.946 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f2140e5-08a4-4fa2-b65c-8bc13300a76e")
+	)
 	(text "Provide option of using Analog ref/excitation\nA) Theirs, as designed. AVDD = 4.45V\nB) Ours, 5.0V. populate R10/R15, depop R8/R9 (ignore the divider)"
 		(exclude_from_sim no)
 		(at 125.222 62.484 0)
@@ -2037,20 +2170,29 @@
 		)
 		(uuid "410353f8-404f-45ef-bd37-97431154532a")
 	)
-	(text "testpads:\nvhappy\n?"
+	(text "FIXME: offer channel B?"
 		(exclude_from_sim no)
-		(at 91.948 58.166 0)
+		(at 130.048 115.824 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.27 1.27)
 			)
-			(justify left)
 		)
-		(uuid "e20bcc84-fd1b-4e39-9d92-c0eadd3661a1")
+		(uuid "444de390-723e-4c4b-8351-af6bfd5fce5f")
 	)
-	(text "xi to ground means internal.\nprovide option to clock out a \"known\" rate?"
+	(text "TI says R normally not needed, and C should be C0G or film, not x7r!"
 		(exclude_from_sim no)
-		(at 206.248 98.044 0)
+		(at 66.548 68.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5fe432b-dd92-422f-885c-ab0a233bd79b")
+	)
+	(text "To use a fixed Ext clock depop R12 and supply on external"
+		(exclude_from_sim no)
+		(at 220.726 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2058,6 +2200,18 @@
 			(justify left)
 		)
 		(uuid "e4c5c13e-1b66-43e2-888c-d6230eb779b3")
+	)
+	(junction
+		(at 114.3 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19fcaf96-a6cc-4e29-8e12-c7e3e8229ca1")
+	)
+	(junction
+		(at 228.6 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51bcdefb-24ee-4383-aed3-2c1862aba3c0")
 	)
 	(junction
 		(at 151.13 93.98)
@@ -2100,6 +2254,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c48cdb00-77b5-4aaf-bc47-c9694b8b3b6a")
+	)
+	(junction
+		(at 128.27 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdd70d9c-dce6-4523-9eea-57318bbd4bd5")
 	)
 	(junction
 		(at 140.97 88.9)
@@ -2167,16 +2327,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 50.8 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b30a67d-aef4-4f57-98ab-9dbb55cc6948")
-	)
-	(wire
-		(pts
 			(xy 128.27 124.46) (xy 172.72 124.46)
 		)
 		(stroke
@@ -2207,6 +2357,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 91.44) (xy 214.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a5c725-b365-49a9-86d5-8ed984a78e7e")
+	)
+	(wire
+		(pts
 			(xy 140.97 73.66) (xy 163.83 73.66)
 		)
 		(stroke
@@ -2224,6 +2384,16 @@
 			(type default)
 		)
 		(uuid "1be92027-75bc-4b66-b011-0bf9b98fa151")
+	)
+	(wire
+		(pts
+			(xy 201.93 88.9) (xy 214.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1eb450-26fc-4a61-ab69-08afcc446c97")
 	)
 	(wire
 		(pts
@@ -2257,16 +2427,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 104.14) (xy 176.53 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "291dbe88-a480-4c24-9222-c6805229f0c5")
-	)
-	(wire
-		(pts
 			(xy 172.72 111.76) (xy 176.53 111.76)
 		)
 		(stroke
@@ -2277,7 +2437,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 88.9) (xy 123.19 88.9)
+			(xy 228.6 99.06) (xy 237.49 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355d99bb-3717-4181-8bc6-b9dd4e101c2e")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.9) (xy 114.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2287,23 +2457,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 106.68) (xy 176.53 106.68)
+			(xy 201.93 99.06) (xy 228.6 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3911e6d6-8dd1-4255-8772-13dc158ecfbe")
-	)
-	(wire
-		(pts
-			(xy 68.58 109.22) (xy 76.2 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c1ce54a-b60f-4adc-aa36-9db113efbb7f")
+		(uuid "36a1d832-2f64-4d51-a50e-420f253ed139")
 	)
 	(wire
 		(pts
@@ -2314,6 +2474,46 @@
 			(type default)
 		)
 		(uuid "42493720-e047-4f59-b9e0-709dcd1e4420")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aaab299-48b6-4db2-a1e8-6c141149e690")
+	)
+	(wire
+		(pts
+			(xy 133.35 99.06) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2bb448-1078-4aab-8fdb-52d97ba2baf1")
+	)
+	(wire
+		(pts
+			(xy 123.19 91.44) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b58eb3a-e9d9-412a-9d65-e24dd00fdfa4")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c179013-02e3-4fae-9086-a3c2478003a1")
 	)
 	(wire
 		(pts
@@ -2337,16 +2537,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 101.6) (xy 76.2 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56a9e5dc-524d-47d6-9cc4-b015356a5214")
-	)
-	(wire
-		(pts
 			(xy 50.8 83.82) (xy 63.5 83.82)
 		)
 		(stroke
@@ -2367,13 +2557,33 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 109.22) (xy 76.2 107.95)
+			(xy 123.19 96.52) (xy 123.19 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5df3e6da-470d-4420-a511-5a9645e5c96f")
+		(uuid "6009e649-276c-4210-8cdb-1dea18410435")
+	)
+	(wire
+		(pts
+			(xy 242.57 99.06) (xy 246.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619ae529-d5ee-4bf1-9e36-912b9d60dea5")
+	)
+	(wire
+		(pts
+			(xy 212.09 106.68) (xy 214.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657a317d-3e2f-4bc9-9299-d0ad1080e92b")
 	)
 	(wire
 		(pts
@@ -2394,6 +2604,16 @@
 			(type default)
 		)
 		(uuid "6b30657f-7cf9-4d3f-b3ae-3268d1a7c608")
+	)
+	(wire
+		(pts
+			(xy 133.35 96.52) (xy 133.35 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5f1a69-392b-47ed-b2d8-25f629ed45b0")
 	)
 	(wire
 		(pts
@@ -2437,6 +2657,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 105.41) (xy 228.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6e1e33-b980-4296-961f-3c2700ea1cae")
+	)
+	(wire
+		(pts
 			(xy 128.27 73.66) (xy 140.97 73.66)
 		)
 		(stroke
@@ -2454,16 +2684,6 @@
 			(type default)
 		)
 		(uuid "934578f6-4eed-4585-9fd3-66c5c96d3ce7")
-	)
-	(wire
-		(pts
-			(xy 76.2 101.6) (xy 76.2 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "935f63c3-471f-4fa4-95a9-e5834322fb2c")
 	)
 	(wire
 		(pts
@@ -2487,6 +2707,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 100.33) (xy 228.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed6ae4c-f3ca-459b-930c-ef70a5dab37e")
+	)
+	(wire
+		(pts
 			(xy 76.2 83.82) (xy 76.2 82.55)
 		)
 		(stroke
@@ -2494,16 +2724,6 @@
 			(type default)
 		)
 		(uuid "c2c5b7e4-8f0d-437a-9947-2b04414ca846")
-	)
-	(wire
-		(pts
-			(xy 63.5 109.22) (xy 50.8 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2c67de6-f6e2-4505-974e-6c8e0a6d6629")
 	)
 	(wire
 		(pts
@@ -2607,6 +2827,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 106.68) (xy 207.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0238b8-ad1d-43ae-8fca-9a0a301f7e7d")
+	)
+	(wire
+		(pts
 			(xy 160.02 88.9) (xy 160.02 93.98)
 		)
 		(stroke
@@ -2614,6 +2844,16 @@
 			(type default)
 		)
 		(uuid "ed7b1f25-4da6-4117-8d51-b5085e5962bd")
+	)
+	(wire
+		(pts
+			(xy 128.27 99.06) (xy 128.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5a109b-1d7c-429f-ba1f-0c0ed682feac")
 	)
 	(wire
 		(pts
@@ -2637,6 +2877,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 88.9) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1331d2-352d-44b1-8d21-c60e93d979c1")
+	)
+	(wire
+		(pts
 			(xy 176.53 86.36) (xy 151.13 86.36)
 		)
 		(stroke
@@ -2644,26 +2894,6 @@
 			(type default)
 		)
 		(uuid "fd3a595b-513f-4f3a-8a37-bca98b4b99b6")
-	)
-	(label "REFIN1AA-"
-		(at 171.45 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55d08abe-fe82-4049-8f92-5780626bbf94")
-	)
-	(label "REFIN1AA+"
-		(at 171.45 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58ce0b3d-fafe-4133-9969-11d68b58b080")
 	)
 	(label "IN1+"
 		(at 76.2 76.2 0)
@@ -2674,16 +2904,6 @@
 			(justify left bottom)
 		)
 		(uuid "5edd3995-4318-414a-91ba-3e93017eee86")
-	)
-	(label "REFIN1AA-"
-		(at 76.2 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "63a96083-88dd-46ab-b49a-9c7cd57e3097")
 	)
 	(label "IN1+"
 		(at 171.45 96.52 180)
@@ -2704,16 +2924,6 @@
 			(justify left bottom)
 		)
 		(uuid "a1608b32-84d0-4567-b87c-0c15f4d75f93")
-	)
-	(label "REFIN1AA+"
-		(at 76.2 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e28cf318-a3b5-423d-95a8-82adb4430015")
 	)
 	(label "IN1-"
 		(at 171.45 99.06 180)
@@ -2769,6 +2979,17 @@
 		)
 		(uuid "99f1ab87-6352-4a94-b773-3b09a78cee49")
 	)
+	(hierarchical_label "EXT_CLK_IN"
+		(shape input)
+		(at 246.38 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fb552a8-fd8d-4d59-aafa-c003fce31842")
+	)
 	(hierarchical_label "EXC-"
 		(shape bidirectional)
 		(at 128.27 124.46 180)
@@ -2780,9 +3001,42 @@
 		)
 		(uuid "ad783fe8-4eb1-416d-bded-30fcaf4fb6c0")
 	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 214.63 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be600f42-dcc5-429a-9fc1-86130b9fde16")
+	)
+	(hierarchical_label "D_RATE"
+		(shape input)
+		(at 214.63 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c04a0a41-b9df-4128-b833-8ddd391f6497")
+	)
+	(hierarchical_label "DCLK"
+		(shape input)
+		(at 214.63 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6d83458-8ab2-4523-be6a-ed3765782f73")
+	)
 	(hierarchical_label "EXC+"
 		(shape bidirectional)
-		(at 118.11 88.9 180)
+		(at 109.22 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2889,6 +3143,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 128.27 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2df34cda-6058-4686-874a-a0061bd08172")
+		(property "Reference" "#PWR018"
+			(at 128.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6eae33da-3063-48d8-8840-54e2b0abbc4d")
+		)
+		(instances
+			(project "pi-hat-hx711_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDDA")
 		(at 186.69 73.66 0)
 		(unit 1)
@@ -2956,7 +3276,7 @@
 	)
 	(symbol
 		(lib_id "karl-marel-atomics:KC0603_100nF")
-		(at 123.19 91.44 0)
+		(at 123.19 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2965,15 +3285,6 @@
 		(fields_autoplaced yes)
 		(uuid "3b6d2710-04c3-4211-9f1e-c2ef3403c889")
 		(property "Reference" "C4"
-			(at 125.73 89.6671 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
 			(at 125.73 92.2071 0)
 			(effects
 				(font
@@ -2982,8 +3293,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "100nF"
+			(at 125.73 94.7471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 122.682 95.25 0)
+			(at 122.682 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +3312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 91.44 0)
+			(at 123.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +3321,7 @@
 			)
 		)
 		(property "Description" "50V, X7R"
-			(at 123.19 95.25 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3330,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R9BB104"
-			(at 122.936 95.25 0)
+			(at 122.936 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3339,7 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
-			(at 123.19 95.25 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,6 +3532,92 @@
 		)
 	)
 	(symbol
+		(lib_id "karl-marel-atomics:KR0603_10k")
+		(at 209.55 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dbf701b-34ae-49be-aca0-f5a8ba0769f8")
+		(property "Reference" "R11"
+			(at 209.55 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 209.55 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 209.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0603"
+			(at 209.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 209.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 209.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae835a5e-9725-4112-bbf8-9f0ff1936f0d")
+		)
+		(pin "2"
+			(uuid "40d8b5b3-5e66-4562-a5a9-de8add37f396")
+		)
+		(instances
+			(project "pi-hat-hx711_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "karl-marel-atomics:KR0603_0R")
 		(at 128.27 80.01 180)
 		(unit 1)
@@ -3300,34 +3706,17 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KR0603_100R")
-		(at 66.04 109.22 270)
-		(mirror x)
+		(lib_id "power:GNDA")
+		(at 228.6 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68269a03-af0f-4340-af8e-a26096f9a363")
-		(property "Reference" "R12"
-			(at 66.04 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 66.04 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 109.22 0)
+		(uuid "7fb98c5f-fcc3-466b-a1d6-7a8c86dd3e15")
+		(property "Reference" "#PWR015"
+			(at 228.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,8 +3724,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 66.04 109.22 0)
+		(property "Value" "GNDA"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,8 +3741,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0603"
-			(at 66.04 109.22 0)
+		(property "Datasheet" ""
+			(at 228.6 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,26 +3750,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22775"
-			(at 66.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF1000T5E"
-			(at 66.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 66.04 109.22 90)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 228.6 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,85 +3760,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "145dfc09-8cc9-4b8c-8f2b-3f408cbc4f95")
-		)
-		(pin "2"
-			(uuid "d69d4cc9-d432-4472-9256-3887a25f1910")
+			(uuid "e457704b-982b-4012-a5c5-2516be55412a")
 		)
 		(instances
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 210.82 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81bf430c-7d38-4909-956d-f0704c613761")
-		(property "Reference" "JP2"
-			(at 212.09 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 212.09 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b55cdea6-7e0b-4572-949d-7634fbc602da")
-		)
-		(pin "2"
-			(uuid "4eaa2a04-4e7b-4d95-bf3d-0e297af9d93f")
-		)
-		(instances
-			(project "pi-hat-hx711_r1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "JP2")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3552,35 +3858,35 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0805_10uF_25V")
-		(at 133.35 91.44 0)
+		(lib_id "karl-marel-atomics:KR0603_0R")
+		(at 228.6 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b69bb43d-2225-4d1d-a035-245fb5995f54")
-		(property "Reference" "C3"
-			(at 135.89 89.6671 0)
+		(uuid "b1967d81-3c15-4dbc-b745-e85c8e3b3aec")
+		(property "Reference" "R12"
+			(at 231.14 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 135.89 92.2071 0)
+		(property "Value" "0R"
+			(at 231.14 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 132.842 95.25 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +3895,95 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 91.44 0)
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0603"
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21189"
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f5cf0df-0c97-4f5d-a68a-e727037a5a7f")
+		)
+		(pin "1"
+			(uuid "7d1c6daa-4264-461c-b01e-dcaad824f1ed")
+		)
+		(instances
+			(project "pi-hat-hx711_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-marel-atomics:KC0805_10uF_25V")
+		(at 133.35 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b69bb43d-2225-4d1d-a035-245fb5995f54")
+		(property "Reference" "C3"
+			(at 135.89 92.2071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 135.89 94.7471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 132.842 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +3992,7 @@
 			)
 		)
 		(property "Description" "25V, X5R"
-			(at 133.35 95.25 0)
+			(at 133.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +4001,7 @@
 			)
 		)
 		(property "MPN" "CL21A106KAYNNNE"
-			(at 133.096 95.25 0)
+			(at 133.096 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +4010,7 @@
 			)
 		)
 		(property "LCSC Part #" "C15850"
-			(at 133.35 95.25 0)
+			(at 133.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,104 +4116,6 @@
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "karl-marel-atomics:KC0603_100nF")
-		(at 76.2 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4e65298-a103-4dbd-8bc2-5627ee495639")
-		(property "Reference" "C9"
-			(at 73.66 103.6371 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 73.66 106.1771 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 76.708 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V, X7R"
-			(at 76.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603KRX7R9BB104"
-			(at 76.454 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C14663"
-			(at 76.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 76.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3658c955-d19a-4f64-b0e4-d6ca05c2a183")
-		)
-		(pin "1"
-			(uuid "4289ed43-bd87-45a3-9be5-3ef75cd08b8d")
-		)
-		(instances
-			(project "pi-hat-hx711_r1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3982,6 +4278,92 @@
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-marel-atomics:KC0603_33pF")
+		(at 240.03 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc3d515a-1183-4ddd-b390-e0b27616f1eb")
+		(property "Reference" "C9"
+			(at 239.5272 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33pF"
+			(at 239.5272 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 243.84 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V, X7R"
+			(at 243.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10C330JB8NNNC"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1663"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "661f5052-5ede-48f8-80a3-6cd38e47e2f5")
+		)
+		(pin "1"
+			(uuid "24e614ff-bcd8-4853-9dc8-77d203cef7ec")
+		)
+		(instances
+			(project "pi-hat-hx711_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4270,6 +4652,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3beb5d2-e4ba-42b6-aa4c-35158a53573f")
+		(property "Reference" "TP1"
+			(at 116.84 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7882ce67-63ec-4362-a144-c2533e91eabd")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 191.77 73.66 0)
 		(unit 1)
@@ -4552,102 +5001,6 @@
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "karl-marel-atomics:KR0603_100R")
-		(at 66.04 101.6 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe510b0a-fc03-4b58-a3d6-90404949cdaf")
-		(property "Reference" "R11"
-			(at 66.04 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 66.04 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, 0603"
-			(at 66.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C22775"
-			(at 66.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF1000T5E"
-			(at 66.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 66.04 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99894614-a693-4dce-82fe-ac00abf044c3")
-		)
-		(pin "2"
-			(uuid "31e6ae5b-2ef8-41c3-8f8e-963d9f596b35")
-		)
-		(instances
-			(project "pi-hat-hx711_r1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "R11")
 					(unit 1)
 				)
 			)
