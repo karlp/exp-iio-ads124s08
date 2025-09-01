@@ -276,7 +276,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SS14"
+		(symbol "Diode:1N5819WS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -295,7 +295,7 @@
 					)
 				)
 			)
-			(property "Value" "SS14"
+			(property "Value" "1N5819WS"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -303,7 +303,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMA"
+			(property "Footprint" "Diode_SMD:D_SOD-323"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -312,7 +312,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -321,7 +321,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "40V 1A Schottky Diode, SMA"
+			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -339,7 +339,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SMA*"
+			(property "ki_fp_filters" "D*SOD?323*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -348,7 +348,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SS14_0_1"
+			(symbol "1N5819WS_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -386,7 +386,7 @@
 					)
 				)
 			)
-			(symbol "SS14_1_1"
+			(symbol "1N5819WS_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1246,6 +1246,172 @@
 			)
 			(symbol "KC0603_33pF_1_1"
 				(text "0603"
+					(at -1.524 1.27 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "karl-marel-atomics:KC0805_10uF_25V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10uF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+				(at -0.508 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "25V, X5R"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL21A106KAYNNNE"
+				(at -0.254 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C15850"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KC0805_10uF_25V_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KC0805_10uF_25V_1_1"
+				(text "0805"
 					(at -1.524 1.27 0)
 					(effects
 						(font
@@ -2214,6 +2380,12 @@
 		(uuid "6670d30a-49fe-4c67-9911-28de9336962b")
 	)
 	(junction
+		(at 114.3 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d70f5b0-8db4-4a4b-b46b-eb416abc7cde")
+	)
+	(junction
 		(at 121.92 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2242,12 +2414,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dba72a74-838e-4fb7-99f4-ff722c1ecdb8")
-	)
-	(junction
-		(at 114.3 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de17bc79-167f-47ea-bde2-902feac34084")
 	)
 	(junction
 		(at 139.7 101.6)
@@ -3016,6 +3182,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "99476ad9-adec-43e4-9f6a-cb56e115f26d")
 		)
@@ -3104,6 +3279,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f281b572-0cd9-4cac-a24f-07e2435c4bde")
 		)
@@ -3184,6 +3368,15 @@
 			)
 		)
 		(property "LCSC Part #" "C45783"
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
 			(at 93.98 106.68 0)
 			(effects
 				(font
@@ -3381,92 +3574,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS14")
-		(at 118.11 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c880073-a51b-4b1d-81bc-d9485c960519")
-		(property "Reference" "D1"
-			(at 118.4275 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS14"
-			(at 118.4275 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 118.11 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 118.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 118.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2480"
-			(at 118.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SS14"
-			(at 118.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddbfa5a4-372d-42c2-b1d6-ac64dcdf23a1")
-		)
-		(pin "2"
-			(uuid "4de92460-22bd-48c1-80c3-ad540cf28f2a")
-		)
-		(instances
-			(project "pi-hat-hx711_r1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 101.6 0)
 		(unit 1)
@@ -3528,94 +3635,6 @@
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "karl-marel-atomics:KC0603_1uF")
-		(at 146.05 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ad186a2-8698-4f84-bdf7-cdd435c238dd")
-		(property "Reference" "C10"
-			(at 148.59 60.4571 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 148.59 62.9971 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 145.542 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V, X5R"
-			(at 146.05 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A105KB8NNNC"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C15849"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd51aad4-def0-42ac-8d64-0201dea0ca76")
-		)
-		(pin "1"
-			(uuid "fced62f8-c97d-4f08-80a6-b5082be9b007")
-		)
-		(instances
-			(project "pi-hat-hx711_r1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3686,6 +3705,15 @@
 			)
 		)
 		(property "LCSC Part #" "C15849"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
 			(at 139.7 106.68 0)
 			(effects
 				(font
@@ -3880,6 +3908,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 118.11 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b52e15ae-d737-408c-a8d0-b7f62cafcac1")
+		(property "Reference" "D1"
+			(at 118.4275 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 118.4275 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 118.11 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N5819WS"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C191023"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fab0237-1ad5-4021-9e2b-a7cbfb25a0f9")
+		)
+		(pin "1"
+			(uuid "e70f7437-f37a-46b4-b53d-cb5f8edaf318")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "karl-marel-atomics:KR0603_1R")
 		(at 86.36 101.6 90)
 		(unit 1)
@@ -3943,6 +4066,15 @@
 		)
 		(property "LCSC Part #" "C22936"
 			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
+			(at 86.36 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA3015S"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4030S"
 			(at 105.41 50.8 0)
 			(effects
 				(font
@@ -4081,7 +4213,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C19398"
+		(property "LCSC Part #" "C167874"
 			(at 105.41 50.8 90)
 			(effects
 				(font
@@ -4090,7 +4222,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SWPA3015S4R7MT"
+		(property "MPN" "FNR4030S4R7MT"
+			(at 105.41 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "0"
 			(at 105.41 50.8 90)
 			(effects
 				(font
@@ -4187,6 +4328,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 124.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ece69f3-4147-4ab6-b7cc-415e1888fddf")
 		)
@@ -4275,6 +4425,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87af2851-8efe-4bbf-bcf0-79f8587463a1")
 		)
@@ -4285,6 +4444,103 @@
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-marel-atomics:KC0805_10uF_25V")
+		(at 146.05 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f89c7952-6084-446f-9eb7-f1bf8e75fe10")
+		(property "Reference" "C13"
+			(at 148.59 60.4571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 148.59 62.9971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 145.542 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V, X5R"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 145.796 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15850"
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e541a1a-5b27-4ae1-ba8b-70862f20a9b2")
+		)
+		(pin "2"
+			(uuid "6e96cfa2-7944-4162-8b04-d42586a621b0")
+		)
+		(instances
+			(project "pi-hat-hx711_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4355,6 +4611,15 @@
 			)
 		)
 		(property "LCSC Part #" "C1663"
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
 			(at 134.62 58.42 0)
 			(effects
 				(font

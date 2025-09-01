@@ -621,7 +621,7 @@
           "group_by": false,
           "label": "jlcbasic",
           "name": "jlcbasic",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
