@@ -453,7 +453,7 @@
 	(footprint "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "09b114ca-12e4-4bb0-a6d5-8f6efc33f411")
-		(at 107.5 61.35)
+		(at 103.8 56.45)
 		(descr "THT rectangular pad as test Point, square 1.5mm side length, hole diameter 0.7mm")
 		(tags "test point THT pad rectangle square")
 		(property "Reference" "TP2"
@@ -1780,7 +1780,7 @@
 	(footprint "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "2528eac5-36bc-4cdd-9ce1-f4dc26598bc1")
-		(at 115.2 71.75)
+		(at 104 60.5)
 		(descr "THT rectangular pad as test Point, square 1.5mm side length, hole diameter 0.7mm")
 		(tags "test point THT pad rectangle square")
 		(property "Reference" "TP3"
@@ -5205,6 +5205,169 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "668dc00a-4a77-455f-ba63-dadb747069c5")
+		(at 103.3 52.5)
+		(descr "THT rectangular pad as test Point, square 1.5mm side length, hole diameter 0.7mm")
+		(tags "test point THT pad rectangle square")
+		(property "Reference" "TP4"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(uuid "4ef39eba-31bd-4a89-84af-5f51ac470a31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "41ab8f37-ec85-46f6-bf20-f733a4bbe927")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d298a50-f2ba-408d-84ea-042a0cd85829")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "844bca77-a9b7-4a57-9f93-97d2c6620def")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9/e212dc11-2467-4b1c-9d26-d6df97e11c90")
+		(sheetname "/power/")
+		(sheetfile "power.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -0.95 -0.95)
+			(end 0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9e478b01-5fc7-4fa0-8291-6e9851532eaa")
+		)
+		(fp_line
+			(start -0.95 0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "63548a57-a7ac-40f5-b2ba-99f31acac9a8")
+		)
+		(fp_line
+			(start 0.95 -0.95)
+			(end 0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bbd11cc3-771e-4a36-85a5-3510ba5f2a04")
+		)
+		(fp_line
+			(start 0.95 0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b2a99a9c-36bd-4f6a-bdf4-9a5a6053738a")
+		)
+		(fp_line
+			(start -1.25 -1.25)
+			(end -1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4b7cfbff-edb5-43fe-b675-a5ebf568c314")
+		)
+		(fp_line
+			(start -1.25 -1.25)
+			(end 1.25 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7261912f-e5d7-4eb2-a083-cf72e9eea460")
+		)
+		(fp_line
+			(start 1.25 1.25)
+			(end -1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "446c7322-6555-4c68-9405-0fe57f8b7dff")
+		)
+		(fp_line
+			(start 1.25 1.25)
+			(end 1.25 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6685d9fb-9e5b-454f-ac9d-2a567bf64f33")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "3ea79554-fd9b-478b-a9aa-0b529c9c1593")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "a45f9cc8-aa82-4482-9dc6-f5742132e30a")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")

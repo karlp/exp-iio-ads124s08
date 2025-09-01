@@ -3584,6 +3584,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 139.7 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65e4ab15-e299-4814-b504-83a209d5245e")
+		(property "Reference" "#PWR05"
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 139.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7a2cb43-433a-4dfa-be60-bde62d922e55")
+		)
+		(instances
+			(project "pi-hat-hx711_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 101.6 0)
 		(unit 1)
@@ -4260,6 +4326,73 @@
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e212dc11-2467-4b1c-9d26-d6df97e11c90")
+		(property "Reference" "TP4"
+			(at 142.24 119.8879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 142.24 122.4279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3feb39a3-ecd3-4d0f-96c4-f89d45c9d6ba")
+		)
+		(instances
+			(project "pi-hat-hx711_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
