@@ -2297,6 +2297,16 @@
 		)
 		(uuid "019605c3-c19e-4b02-888e-28c6500a47c5")
 	)
+	(text "FIXME - bigger?"
+		(exclude_from_sim no)
+		(at 148.844 111.506 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73b83cd2-c171-4cad-b2d5-b7cf160079d7")
+	)
 	(text "vout = 1.233*(1+r1/r2)\n=> with 1% resisters, nominal 5.67\n=> min: 5.58, max, 5.76\n"
 		(exclude_from_sim no)
 		(at 108.966 77.978 0)

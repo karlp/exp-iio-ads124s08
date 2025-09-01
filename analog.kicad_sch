@@ -2151,7 +2151,7 @@
 	)
 	(text "HX711 can't do a damn thing with 6 wire sensors"
 		(exclude_from_sim no)
-		(at 75.946 105.918 0)
+		(at 64.008 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2159,7 +2159,7 @@
 		)
 		(uuid "2f2140e5-08a4-4fa2-b65c-8bc13300a76e")
 	)
-	(text "Provide option of using Analog ref/excitation\nA) Theirs, as designed. AVDD = 4.45V\nB) Ours, 5.0V. populate R10/R15, depop R8/R9 (ignore the divider)"
+	(text "Provide option of using Analog ref/excitation\nA) Theirs, as designed. AVDD = 4.45V\nB) Ours, 5.0V. populate R10/R15, depop R8 (ignore the divider)\n(swap R14 for 0ohm?, what's easier?)"
 		(exclude_from_sim no)
 		(at 125.222 62.484 0)
 		(effects
@@ -2170,19 +2170,19 @@
 		)
 		(uuid "410353f8-404f-45ef-bd37-97431154532a")
 	)
-	(text "FIXME: offer channel B?"
+	(text "HX711 can't do a damn thing with 6 wire sensors"
 		(exclude_from_sim no)
-		(at 130.048 115.824 0)
+		(at 64.516 148.844 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "444de390-723e-4c4b-8351-af6bfd5fce5f")
+		(uuid "5e697deb-7d92-428a-b937-454c2ee79a35")
 	)
 	(text "TI says R normally not needed, and C should be C0G or film, not x7r!"
 		(exclude_from_sim no)
-		(at 66.548 68.326 0)
+		(at 53.848 68.326 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2317,6 +2317,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 132.08) (xy 38.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0881aebd-0ad8-4e23-9931-d9c48b05e024")
+	)
+	(wire
+		(pts
 			(xy 140.97 78.74) (xy 140.97 73.66)
 		)
 		(stroke
@@ -2327,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 124.46) (xy 172.72 124.46)
+			(xy 110.49 124.46) (xy 172.72 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2357,16 +2367,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 91.44) (xy 214.63 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18a5c725-b365-49a9-86d5-8ed984a78e7e")
-	)
-	(wire
-		(pts
 			(xy 140.97 73.66) (xy 163.83 73.66)
 		)
 		(stroke
@@ -2387,16 +2387,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 88.9) (xy 214.63 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c1eb450-26fc-4a61-ab69-08afcc446c97")
-	)
-	(wire
-		(pts
 			(xy 191.77 73.66) (xy 191.77 76.2)
 		)
 		(stroke
@@ -2407,6 +2397,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 88.9) (xy 246.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255fedf3-112a-4bfb-8e5c-314818afcc03")
+	)
+	(wire
+		(pts
 			(xy 160.02 93.98) (xy 151.13 93.98)
 		)
 		(stroke
@@ -2414,6 +2414,16 @@
 			(type default)
 		)
 		(uuid "268b0f6e-1298-482a-be08-34f73b211cb4")
+	)
+	(wire
+		(pts
+			(xy 213.36 106.68) (xy 212.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26abc60d-afde-4a27-95f0-161284cec8aa")
 	)
 	(wire
 		(pts
@@ -2477,6 +2487,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 91.44) (xy 246.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d26365-3817-4907-9b02-eb26f1d7fdf7")
+	)
+	(wire
+		(pts
 			(xy 133.35 91.44) (xy 133.35 88.9)
 		)
 		(stroke
@@ -2517,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 76.2) (xy 50.8 76.2)
+			(xy 50.8 76.2) (xy 38.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2537,7 +2557,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 83.82) (xy 63.5 83.82)
+			(xy 171.45 106.68) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58947633-a977-482b-9ee3-bf2357cd88b5")
+	)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 50.8 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2577,13 +2607,23 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 106.68) (xy 214.63 106.68)
+			(xy 213.36 115.57) (xy 246.38 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "657a317d-3e2f-4bc9-9299-d0ad1080e92b")
+	)
+	(wire
+		(pts
+			(xy 55.88 139.7) (xy 63.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f7bb47-aed0-46a1-b40a-97574beabf09")
 	)
 	(wire
 		(pts
@@ -2597,7 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 76.2 76.2)
+			(xy 55.88 76.2) (xy 63.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2614,6 +2654,26 @@
 			(type default)
 		)
 		(uuid "6d5f1a69-392b-47ed-b2d8-25f629ed45b0")
+	)
+	(wire
+		(pts
+			(xy 63.5 132.08) (xy 63.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7851fdc3-a29c-44c0-aba8-273e310887ee")
+	)
+	(wire
+		(pts
+			(xy 63.5 139.7) (xy 63.5 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae3437c-6f9a-4520-9385-6ab4541d5a59")
 	)
 	(wire
 		(pts
@@ -2657,7 +2717,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 105.41) (xy 228.6 107.95)
+			(xy 228.6 105.41) (xy 228.6 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2697,6 +2757,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 132.08) (xy 63.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9098b56-5326-41b8-889f-6a0341121510")
+	)
+	(wire
+		(pts
 			(xy 151.13 86.36) (xy 151.13 88.9)
 		)
 		(stroke
@@ -2717,7 +2787,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 83.82) (xy 76.2 82.55)
+			(xy 63.5 83.82) (xy 63.5 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2747,7 +2817,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 76.2) (xy 76.2 77.47)
+			(xy 63.5 76.2) (xy 63.5 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2797,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 83.82) (xy 76.2 83.82)
+			(xy 55.88 83.82) (xy 63.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2814,6 +2884,16 @@
 			(type default)
 		)
 		(uuid "dedc7ba2-9e4f-4a8a-811d-cc898f1850e5")
+	)
+	(wire
+		(pts
+			(xy 171.45 104.14) (xy 176.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6fce87-af7f-4bee-a82f-28fd3d560d60")
 	)
 	(wire
 		(pts
@@ -2867,6 +2947,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 115.57) (xy 213.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38dd0ac-fd28-4396-a370-6aceb3b342de")
+	)
+	(wire
+		(pts
 			(xy 146.05 86.36) (xy 146.05 88.9)
 		)
 		(stroke
@@ -2895,8 +2985,18 @@
 		)
 		(uuid "fd3a595b-513f-4f3a-8a37-bca98b4b99b6")
 	)
+	(wire
+		(pts
+			(xy 38.1 139.7) (xy 50.8 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4237ff-4c9e-45e7-bf1b-9d1b276b9b8f")
+	)
 	(label "IN1+"
-		(at 76.2 76.2 0)
+		(at 63.5 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2915,8 +3015,28 @@
 		)
 		(uuid "6ea1c9c3-121e-40d6-a6d6-0d34c7c77650")
 	)
+	(label "IN2-"
+		(at 171.45 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c6474ba-19c7-4be3-b7bc-f0cce6983c23")
+	)
+	(label "IN2+"
+		(at 63.5 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c4c6efa-b789-4e4f-b23f-b8b7b8995ed3")
+	)
 	(label "IN1-"
-		(at 76.2 83.82 0)
+		(at 63.5 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2924,6 +3044,16 @@
 			(justify left bottom)
 		)
 		(uuid "a1608b32-84d0-4567-b87c-0c15f4d75f93")
+	)
+	(label "IN2-"
+		(at 63.5 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4de8c39-f8b8-481a-a559-1ecc037fd60a")
 	)
 	(label "IN1-"
 		(at 171.45 99.06 180)
@@ -2935,9 +3065,30 @@
 		)
 		(uuid "ee055b4b-2b8a-467e-a300-3993a51b934a")
 	)
+	(label "IN2+"
+		(at 171.45 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3f79805-004e-4a83-9d77-196ad640a934")
+	)
+	(hierarchical_label "IN2-"
+		(shape input)
+		(at 38.1 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d1177e2-fbfc-4101-9e22-c39ebd16b1ac")
+	)
 	(hierarchical_label "SENSE-"
 		(shape input)
-		(at 50.8 109.22 180)
+		(at 38.1 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2948,7 +3099,7 @@
 	)
 	(hierarchical_label "IN-"
 		(shape input)
-		(at 50.8 83.82 180)
+		(at 38.1 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2957,9 +3108,31 @@
 		)
 		(uuid "57819d9b-5360-45f5-8001-e5f652cd1c7c")
 	)
+	(hierarchical_label "SENSE2+"
+		(shape input)
+		(at 38.1 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7529ea02-a553-4e8d-b994-2e3e94a84685")
+	)
+	(hierarchical_label "IN2+"
+		(shape input)
+		(at 38.1 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78f1583c-53c7-4817-ae81-1ded0e699dec")
+	)
 	(hierarchical_label "SENSE+"
 		(shape input)
-		(at 50.8 101.6 180)
+		(at 38.1 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2968,9 +3141,20 @@
 		)
 		(uuid "878a6557-b9ee-4f30-a102-b158ed449cf9")
 	)
+	(hierarchical_label "SENSE2-"
+		(shape input)
+		(at 38.1 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93bb9965-fe11-40a2-b316-abda96fa0f65")
+	)
 	(hierarchical_label "IN+"
 		(shape input)
-		(at 50.8 76.2 180)
+		(at 38.1 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2992,7 +3176,7 @@
 	)
 	(hierarchical_label "EXC-"
 		(shape bidirectional)
-		(at 128.27 124.46 180)
+		(at 110.49 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3003,7 +3187,7 @@
 	)
 	(hierarchical_label "DOUT"
 		(shape output)
-		(at 214.63 88.9 0)
+		(at 246.38 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3014,7 +3198,7 @@
 	)
 	(hierarchical_label "D_RATE"
 		(shape input)
-		(at 214.63 106.68 0)
+		(at 246.38 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3025,7 +3209,7 @@
 	)
 	(hierarchical_label "DCLK"
 		(shape input)
-		(at 214.63 91.44 0)
+		(at 246.38 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3137,6 +3321,102 @@
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-marel-atomics:KR0603_100R")
+		(at 53.34 139.7 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e13c33-ec31-485d-9b6d-758a1d9a8a0c")
+		(property "Reference" "R17"
+			(at 53.34 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 53.34 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0603"
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22775"
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1000T5E"
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
+			(at 53.34 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3958b836-481e-4aec-ab38-99acf8db9c7e")
+		)
+		(pin "2"
+			(uuid "e29e9eed-06ff-4023-95cc-a33a172a4cad")
+		)
+		(instances
+			(project "pi-hat-hx711_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3734,7 +4014,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 228.6 107.95 0)
+		(at 228.6 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3743,7 +4023,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fb98c5f-fcc3-466b-a1d6-7a8c86dd3e15")
 		(property "Reference" "#PWR015"
-			(at 228.6 114.3 0)
+			(at 228.6 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +4032,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 228.6 113.03 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +4040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 107.95 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +4049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 107.95 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +4058,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 228.6 107.95 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,6 +4073,102 @@
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-marel-atomics:KR0603_100R")
+		(at 53.34 132.08 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "846d806d-9d31-4098-8731-873836a10704")
+		(property "Reference" "R16"
+			(at 53.34 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 53.34 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0603"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22775"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1000T5E"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
+			(at 53.34 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b31491b-7512-4f17-a770-fd586f2c5ce7")
+		)
+		(pin "2"
+			(uuid "5a896366-9bff-4134-a2f3-07e478b50ac8")
+		)
+		(instances
+			(project "pi-hat-hx711_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4186,7 +4562,7 @@
 	)
 	(symbol
 		(lib_id "karl-marel-atomics:KR0603_100R")
-		(at 66.04 83.82 270)
+		(at 53.34 83.82 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4196,7 +4572,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8c13f90-4097-4a7a-8cd5-882143c52e88")
 		(property "Reference" "R4"
-			(at 66.04 78.74 90)
+			(at 53.34 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4580,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 66.04 81.28 90)
+			(at 53.34 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4588,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 83.82 0)
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4597,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 83.82 0)
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4606,7 @@
 			)
 		)
 		(property "Description" "Resistor, 0603"
-			(at 66.04 83.82 0)
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4615,7 @@
 			)
 		)
 		(property "LCSC Part #" "C22775"
-			(at 66.04 83.82 0)
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4624,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1000T5E"
-			(at 66.04 83.82 0)
+			(at 53.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +4633,7 @@
 			)
 		)
 		(property "jlcbasic" "basic"
-			(at 66.04 83.82 90)
+			(at 53.34 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4819,7 @@
 	)
 	(symbol
 		(lib_id "karl-marel-atomics:KC0603_100nF")
-		(at 76.2 80.01 0)
+		(at 63.5 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4453,7 +4829,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc96e4ac-f9f5-4349-b56d-6276d2df14fb")
 		(property "Reference" "C2"
-			(at 73.66 78.2371 0)
+			(at 60.96 78.2371 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4838,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 73.66 80.7771 0)
+			(at 60.96 80.7771 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4847,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 76.708 83.82 0)
+			(at 64.008 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 80.01 0)
+			(at 63.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4865,7 @@
 			)
 		)
 		(property "Description" "50V, X7R"
-			(at 76.2 83.82 0)
+			(at 63.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +4874,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R9BB104"
-			(at 76.454 83.82 0)
+			(at 63.754 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4883,7 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
-			(at 76.2 83.82 0)
+			(at 63.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4892,7 @@
 			)
 		)
 		(property "jlcbasic" "basic"
-			(at 76.2 80.01 0)
+			(at 63.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,8 +4916,106 @@
 		)
 	)
 	(symbol
+		(lib_id "karl-marel-atomics:KC0603_100nF")
+		(at 63.5 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccec1aec-0cf1-49c6-b4fc-c286d3285b72")
+		(property "Reference" "C10"
+			(at 60.96 134.1171 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 60.96 136.6571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 64.008 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V, X7R"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 63.754 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
+			(at 63.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac7da9b2-c001-4c94-a0bc-fe81658c359e")
+		)
+		(pin "1"
+			(uuid "eb6c505a-bbbf-4abf-a63e-0239e9bb1f8a")
+		)
+		(instances
+			(project "pi-hat-hx711_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "karl-marel-atomics:KR0603_100R")
-		(at 66.04 76.2 270)
+		(at 53.34 76.2 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4551,7 +5025,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf5aa4b8-554e-4e1d-8815-21292a53c228")
 		(property "Reference" "R2"
-			(at 66.04 71.12 90)
+			(at 53.34 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,7 +5033,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 66.04 73.66 90)
+			(at 53.34 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +5041,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 76.2 0)
+			(at 53.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +5050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 76.2 0)
+			(at 53.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +5059,7 @@
 			)
 		)
 		(property "Description" "Resistor, 0603"
-			(at 66.04 76.2 0)
+			(at 53.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +5068,7 @@
 			)
 		)
 		(property "LCSC Part #" "C22775"
-			(at 66.04 76.2 0)
+			(at 53.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +5077,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1000T5E"
-			(at 66.04 76.2 0)
+			(at 53.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +5086,7 @@
 			)
 		)
 		(property "jlcbasic" "basic"
-			(at 66.04 76.2 90)
+			(at 53.34 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
