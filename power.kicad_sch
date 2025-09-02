@@ -612,7 +612,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TPS7A20xxxDQN"
+		(symbol "Regulator_Linear:TPS7A0515PDBV"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -624,7 +624,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS7A20xxxDQN"
+			(property "Value" "TPS7A0515PDBV"
 				(at 6.35 6.35 0)
 				(effects
 					(font
@@ -632,7 +632,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at 0 8.89 0)
 				(effects
 					(font
@@ -641,7 +641,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a05.pdf"
 				(at 0 12.7 0)
 				(effects
 					(font
@@ -650,7 +650,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5"
+			(property "Description" "200-mA Ultra-Low-Iq LDO, 1.5V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -659,7 +659,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Output LDO Texas-Instruments"
+			(property "ki_keywords" "Single Output LDO Low-Iq"
 				(at 0 0 0)
 				(effects
 					(font
@@ -668,7 +668,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*X2SON*1x1mm*P0.65mm*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -677,10 +677,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS7A20xxxDQN_0_1"
+			(symbol "TPS7A0515PDBV_0_1"
 				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -699,7 +699,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -743,17 +743,18 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 2.54 180)
+				(pin no_connect line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "OUT"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -761,12 +762,10 @@
 						)
 					)
 				)
-			)
-			(symbol "TPS7A20xxxDQN_1_1"
-				(pin passive line
-					(at 2.54 -7.62 90)
+				(pin power_out line
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "Pad"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2297,16 +2296,6 @@
 		)
 		(uuid "019605c3-c19e-4b02-888e-28c6500a47c5")
 	)
-	(text "FIXME - bigger?"
-		(exclude_from_sim no)
-		(at 148.844 111.506 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "73b83cd2-c171-4cad-b2d5-b7cf160079d7")
-	)
 	(text "vout = 1.233*(1+r1/r2)\n=> with 1% resisters, nominal 5.67\n=> min: 5.58, max, 5.76\n"
 		(exclude_from_sim no)
 		(at 108.966 77.978 0)
@@ -2329,17 +2318,27 @@
 		)
 		(uuid "dd8e7c39-e3be-4cbe-9b15-7ff06f05f2d9")
 	)
-	(junction
-		(at 124.46 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01e63b6f-4c4b-406c-8804-e740f5e54b80")
+	(text "WAYY more cap than required"
+		(exclude_from_sim no)
+		(at 155.448 112.776 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e610b7e0-6ba6-484b-a013-aa9cc6f0bf1c")
 	)
 	(junction
 		(at 91.44 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "051e1553-f7ba-449a-bae2-512b3095804f")
+	)
+	(junction
+		(at 149.86 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "274298ae-7fa2-412e-907a-de2a5b11a9f7")
 	)
 	(junction
 		(at 80.01 50.8)
@@ -2414,6 +2413,12 @@
 		(uuid "ad050c60-ea7b-4a4c-92f8-fa578d6bd00d")
 	)
 	(junction
+		(at 139.7 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2e4cac0-17e9-4cdc-9875-efc31e146e13")
+	)
+	(junction
 		(at 146.05 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2486,16 +2491,6 @@
 			(type default)
 		)
 		(uuid "1635372b-ba88-42ba-a239-3b520627f182")
-	)
-	(wire
-		(pts
-			(xy 124.46 111.76) (xy 124.46 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21045ab0-49f6-4497-a912-05a43526bea3")
 	)
 	(wire
 		(pts
@@ -2599,6 +2594,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 101.6) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52169db2-1aa6-425b-b964-ac65f455752e")
+	)
+	(wire
+		(pts
 			(xy 91.44 50.8) (xy 102.87 50.8)
 		)
 		(stroke
@@ -2619,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 116.84) (xy 121.92 116.84)
+			(xy 121.92 116.84) (xy 139.7 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2716,6 +2721,16 @@
 			(type default)
 		)
 		(uuid "8ef1fc27-9792-4655-bc46-8a7ea806f5c7")
+	)
+	(wire
+		(pts
+			(xy 149.86 116.84) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932af420-85ad-4466-9b87-5e5860514189")
 	)
 	(wire
 		(pts
@@ -2819,6 +2834,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 109.22) (xy 149.86 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c434d539-25a1-4349-941f-9f9ba4cdbb30")
+	)
+	(wire
+		(pts
 			(xy 104.14 116.84) (xy 121.92 116.84)
 		)
 		(stroke
@@ -2856,16 +2881,6 @@
 			(type default)
 		)
 		(uuid "d0da7c73-e957-495c-b86d-4620e06bfaf6")
-	)
-	(wire
-		(pts
-			(xy 139.7 116.84) (xy 124.46 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d459f732-d989-4b25-86f7-d78be0a71234")
 	)
 	(wire
 		(pts
@@ -2949,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 101.6) (xy 144.78 101.6)
+			(xy 139.7 101.6) (xy 149.86 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2986,6 +3001,16 @@
 			(type default)
 		)
 		(uuid "ff644547-2cd5-40ac-a547-65125c5357e0")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffdc55cd-d034-45af-8c21-9ab0d3b6de91")
 	)
 	(label "VBOOST"
 		(at 76.2 101.6 180)
@@ -3042,7 +3067,7 @@
 	)
 	(hierarchical_label "VHAPPY"
 		(shape output)
-		(at 144.78 101.6 0)
+		(at 152.4 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3211,6 +3236,103 @@
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-marel-atomics:KC0805_10uF_25V")
+		(at 149.86 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19543b8c-29ce-495e-a60f-ea11807d73f7")
+		(property "Reference" "C14"
+			(at 152.4 104.9071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 152.4 107.4471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 149.352 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V, X5R"
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 149.606 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15850"
+			(at 149.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7d1f431-0ed2-436a-9cf1-2ad5f1a988d9")
+		)
+		(pin "2"
+			(uuid "54c71ad1-4646-450e-be5c-93126d71e06e")
+		)
+		(instances
+			(project "pi-hat-hx711_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3874,110 +3996,6 @@
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TPS7A20xxxDQN")
-		(at 121.92 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4d61759-f6fd-4614-88c0-2de899bf8644")
-		(property "Reference" "U3"
-			(at 121.92 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS7A2050PDQNR"
-			(at 121.92 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm"
-			(at 121.92 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
-			(at 121.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5"
-			(at 121.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2866499"
-			(at 121.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPS7A2050PDQNR"
-			(at 121.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "0"
-			(at 121.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb9509b3-ea34-4ffe-9ba1-0a7fe3b33cf6")
-		)
-		(pin "5"
-			(uuid "87b6aab8-ce5a-49d5-bdee-54379d3fb90d")
-		)
-		(pin "4"
-			(uuid "7ece92d3-d678-4c8f-b7df-958aa176d4cb")
-		)
-		(pin "3"
-			(uuid "c94a07a4-83b4-4211-a677-b59dde3ee9e8")
-		)
-		(pin "2"
-			(uuid "f5f32923-96fd-4444-a3d5-48599ac51f13")
-		)
-		(instances
-			(project "pi-hat-hx711_r1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4684,6 +4702,110 @@
 			(project "pi-hat-hx711_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TPS7A0515PDBV")
+		(at 121.92 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb565ade-9dfd-43ac-8257-22ad7f063dec")
+		(property "Reference" "U5"
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7A2050PDBV"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23-5"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2864504"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS7A2050PDBVR"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "0"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a672ee77-d09b-4a47-ba5e-76325e3b0118")
+		)
+		(pin "2"
+			(uuid "09f67f36-3eb7-4102-be5e-6071337550e6")
+		)
+		(pin "5"
+			(uuid "683f8bd0-68bd-4e39-803c-f7de87ebd555")
+		)
+		(pin "3"
+			(uuid "4a0eaae0-b387-459e-9617-f235c4883d7f")
+		)
+		(pin "1"
+			(uuid "f0367b56-01d6-4c01-b50e-99d561a09f06")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fdbfdc15-850a-4ffd-858c-b9b4d340c2f9"
+					(reference "U5")
 					(unit 1)
 				)
 			)

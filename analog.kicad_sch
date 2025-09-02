@@ -3015,7 +3015,7 @@
 		)
 		(uuid "6ea1c9c3-121e-40d6-a6d6-0d34c7c77650")
 	)
-	(label "IN2-"
+	(label "INB-"
 		(at 171.45 106.68 180)
 		(effects
 			(font
@@ -3025,7 +3025,7 @@
 		)
 		(uuid "7c6474ba-19c7-4be3-b7bc-f0cce6983c23")
 	)
-	(label "IN2+"
+	(label "INB+"
 		(at 63.5 132.08 0)
 		(effects
 			(font
@@ -3045,7 +3045,7 @@
 		)
 		(uuid "a1608b32-84d0-4567-b87c-0c15f4d75f93")
 	)
-	(label "IN2-"
+	(label "INB-"
 		(at 63.5 139.7 0)
 		(effects
 			(font
@@ -3065,7 +3065,7 @@
 		)
 		(uuid "ee055b4b-2b8a-467e-a300-3993a51b934a")
 	)
-	(label "IN2+"
+	(label "INB+"
 		(at 171.45 104.14 180)
 		(effects
 			(font
