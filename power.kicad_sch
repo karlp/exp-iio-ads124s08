@@ -3032,6 +3032,16 @@
 		)
 		(uuid "66aebccd-dd6e-4896-8418-a717101f674e")
 	)
+	(label "VBOOST_F"
+		(at 105.41 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "845f2495-07a2-4efe-8e3e-c72c76f1a1d0")
+	)
 	(hierarchical_label "VNOISY"
 		(shape input)
 		(at 101.6 165.1 180)
