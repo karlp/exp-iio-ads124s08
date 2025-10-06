@@ -4752,7 +4752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a05.pdf"
 			(at 121.92 91.44 0)
 			(effects
 				(font
@@ -4761,7 +4761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23-5"
+		(property "Description" "200-mA Ultra-Low-Iq LDO, 1.5V, SOT-23-5"
 			(at 121.92 104.14 0)
 			(effects
 				(font
