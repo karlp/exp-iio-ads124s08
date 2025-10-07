@@ -9244,66 +9244,6 @@
 				(justify left top)
 			)
 		)
-		(pin "EXC+" bidirectional
-			(at 259.08 40.64 0)
-			(uuid "5984036f-2ad5-46ff-b399-1d14ec4f9df5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EXC-" bidirectional
-			(at 259.08 43.18 0)
-			(uuid "3470aba4-48a3-442d-8eef-a75a529a8671")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN+" input
-			(at 259.08 45.72 0)
-			(uuid "84d42256-eefb-45fc-ba7b-1019b99c0422")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IN-" input
-			(at 259.08 48.26 0)
-			(uuid "7c0edd78-4e69-45f7-bf35-305e8612ac50")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENSE+" input
-			(at 259.08 50.8 0)
-			(uuid "7536b39e-3c0a-4714-99c0-767a865b4719")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENSE-" input
-			(at 259.08 53.34 0)
-			(uuid "16f20af3-5610-4ee2-8ec1-d1d9ca53daa0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SPI_MISO" output
 			(at 220.98 43.18 180)
 			(uuid "5e878f73-7ded-4aeb-a815-39e7a80a6d58")
@@ -9437,6 +9377,66 @@
 		(pin "EXC2-" bidirectional
 			(at 259.08 60.96 0)
 			(uuid "9230386e-2337-4df5-98e4-2fd4d44cdb22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXC1+" bidirectional
+			(at 259.08 40.64 0)
+			(uuid "34504c1e-87da-4c6d-839c-96e263677454")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXC1-" bidirectional
+			(at 259.08 43.18 0)
+			(uuid "3deffc60-7c87-46e4-96af-02650a8b19cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN1+" input
+			(at 259.08 45.72 0)
+			(uuid "4ae33fb4-7c74-4fec-821f-c6d142ea790f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN1-" input
+			(at 259.08 48.26 0)
+			(uuid "d3455af1-da68-4785-9125-59f83e5a0c3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE1+" input
+			(at 259.08 50.8 0)
+			(uuid "777a3aae-3445-4f79-9d81-382aad913084")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE1-" input
+			(at 259.08 53.34 0)
+			(uuid "533ca697-dcd3-491c-b052-d7dd3e761b5f")
 			(effects
 				(font
 					(size 1.27 1.27)

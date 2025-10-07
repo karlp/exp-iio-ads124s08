@@ -704,113 +704,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "karl-marel-atomics:ADS124S08IPBSR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1676,6 +1569,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "karl-marel-atomics:KC0603_10nF_C0G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10nF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V, NP0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CC0603JRNPO9BN103"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C389113"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KC0603_10nF_C0G_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KC0603_10nF_C0G_1_1"
+				(text "0603"
+					(at -1.524 1.27 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "karl-marel-atomics:KC0603_1uF"
 			(pin_numbers
 				(hide yes)
@@ -1842,7 +1901,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KC0603_330nF"
+		(symbol "karl-marel-atomics:KC0603_220nF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1862,7 +1921,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "330nF"
+			(property "Value" "220nF"
 				(at 0.254 -2.032 0)
 				(effects
 					(font
@@ -1898,7 +1957,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part #" "C1615"
+			(property "MPN" "CL10B224KA8NNNC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1907,7 +1966,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "0603B334K250NT"
+			(property "LCSC Part #" "C21120"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1934,7 +1993,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "KC0603_330nF_0_1"
+			(symbol "KC0603_220nF_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1960,7 +2019,7 @@
 					)
 				)
 			)
-			(symbol "KC0603_330nF_1_1"
+			(symbol "KC0603_220nF_1_1"
 				(text "0603"
 					(at -1.524 1.27 0)
 					(effects
@@ -2161,7 +2220,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KR0603_100R"
+		(symbol "karl-marel-atomics:KR0603_10k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2181,7 +2240,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "100R"
+			(property "Value" "10k"
 				(at 0.762 -1.016 0)
 				(effects
 					(font
@@ -2217,7 +2276,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part #" "C22775"
+			(property "MPN" "0603WAF1002T5E"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2226,7 +2285,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "0603WAF1000T5E"
+			(property "LCSC Part #" "C25804"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2253,7 +2312,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "KR0603_100R_0_1"
+			(symbol "KR0603_10k_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -2266,7 +2325,160 @@
 					)
 				)
 			)
-			(symbol "KR0603_100R_1_1"
+			(symbol "KR0603_10k_1_1"
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "karl-marel-atomics:KR0603_1k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1k"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0603WAF1001T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C21190"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KR0603_1k_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KR0603_1k_1_1"
 				(text "0603"
 					(at 0 0 900)
 					(effects
@@ -2777,6 +2989,17 @@
 		)
 		(uuid "32e5116f-6739-4266-88ab-9ecc28e4b9fa")
 	)
+	(text "So. 4ksps ADC.  set a 3db poitn of 3180. that's fine.\nUse NP0 on one channel, 10nF to keep cost/size down,\nuse X7r on another channel pair, see if we can see the difference?"
+		(exclude_from_sim no)
+		(at 21.082 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33805c7c-5031-44d1-a17a-d64731ee33ce")
+	)
 	(text "TI sez: 47R on allll serial lines, but... yolo"
 		(exclude_from_sim no)
 		(at 68.58 20.828 0)
@@ -2787,6 +3010,18 @@
 			)
 		)
 		(uuid "5d2288ba-d840-4f23-b2d9-3ed6755d3db5")
+	)
+	(text "Remember, you're _NOT_ making an eval board for the ADC!\nDO NOT TRY AND DO EVERYTHING POSSIBLE!"
+		(exclude_from_sim no)
+		(at 217.424 148.59 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "8494d3a8-20c1-4323-b517-a15b9e82254c")
 	)
 	(text "TI says R normally not needed, and C should be C0G or film, not x7r!"
 		(exclude_from_sim no)
@@ -2895,6 +3130,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 30.48) (xy 193.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130f8113-8cf9-4966-849b-49d74f1822e6")
+	)
+	(wire
+		(pts
 			(xy 137.16 53.34) (xy 137.16 50.8)
 		)
 		(stroke
@@ -2965,6 +3210,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 40.64) (xy 180.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309808d6-c7bf-42c6-8906-fe85b948a041")
+	)
+	(wire
+		(pts
 			(xy 24.13 82.55) (xy 29.21 82.55)
 		)
 		(stroke
@@ -2985,6 +3240,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 88.9) (xy 142.24 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e62ae6-fbbc-4979-84cb-94cebdd9c0bf")
+	)
+	(wire
+		(pts
 			(xy 147.32 33.02) (xy 147.32 30.48)
 		)
 		(stroke
@@ -2992,16 +3257,6 @@
 			(type default)
 		)
 		(uuid "451a1e25-b35e-46e4-839e-0a6e74a9a43c")
-	)
-	(wire
-		(pts
-			(xy 50.8 76.2) (xy 38.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "505176a0-f575-4c4d-aed2-191ac148d42b")
 	)
 	(wire
 		(pts
@@ -3015,6 +3270,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 101.6) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f369ef-4c3c-47d6-8c74-c4f8bdeda3e5")
+	)
+	(wire
+		(pts
 			(xy 38.1 86.36) (xy 50.8 86.36)
 		)
 		(stroke
@@ -3022,6 +3287,26 @@
 			(type default)
 		)
 		(uuid "5b6a071a-62ef-4c55-8796-8a9192d4f561")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fefe92e-c6c3-4e5b-bf15-7f3b17c1ce99")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 142.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64155f83-7530-4020-a592-d7417e353dfd")
 	)
 	(wire
 		(pts
@@ -3095,6 +3380,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 119.38) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83005fd9-6721-4ff3-9ccd-5316c3c47106")
+	)
+	(wire
+		(pts
 			(xy 172.72 30.48) (xy 180.34 30.48)
 		)
 		(stroke
@@ -3102,6 +3397,16 @@
 			(type default)
 		)
 		(uuid "839193f2-004c-4ac5-b50c-430ccabda729")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9630510a-25a0-4fc5-aff9-65a5210ccbd1")
 	)
 	(wire
 		(pts
@@ -3155,6 +3460,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 30.48) (xy 193.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7490e5f-8950-4f96-9d63-dd1e3c4fd9d6")
+	)
+	(wire
+		(pts
 			(xy 55.88 132.08) (xy 63.5 132.08)
 		)
 		(stroke
@@ -3195,6 +3510,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 76.2) (xy 50.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c2d411-3804-4cf2-b223-8a1b59910e76")
+	)
+	(wire
+		(pts
 			(xy 53.34 33.02) (xy 58.42 33.02)
 		)
 		(stroke
@@ -3202,6 +3527,16 @@
 			(type default)
 		)
 		(uuid "bd023383-4887-4d75-9b82-08e861eee2e8")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bb8c0c-9b10-4091-9624-4415752474de")
 	)
 	(wire
 		(pts
@@ -3265,6 +3600,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 38.1) (xy 193.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e877fe32-0905-4f1c-b085-21ed9ae5dfa4")
+	)
+	(wire
+		(pts
 			(xy 172.72 38.1) (xy 175.26 38.1)
 		)
 		(stroke
@@ -3295,6 +3640,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 91.44) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcdd5a2a-2fe4-4932-bd39-44ea0fcd4762")
+	)
+	(wire
+		(pts
 			(xy 180.34 40.64) (xy 180.34 54.61)
 		)
 		(stroke
@@ -3313,7 +3668,17 @@
 		)
 		(uuid "fe4237ff-4c9e-45e7-bf1b-9d1b276b9b8f")
 	)
-	(label "IN1+"
+	(label "INB-"
+		(at 127 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46ebedf6-ddbe-49ad-9784-325bea93983e")
+	)
+	(label "INA+"
 		(at 63.5 76.2 0)
 		(effects
 			(font
@@ -3322,6 +3687,16 @@
 			(justify left bottom)
 		)
 		(uuid "5edd3995-4318-414a-91ba-3e93017eee86")
+	)
+	(label "INA-"
+		(at 127 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "674acf59-e5d5-4079-a516-ecdfc584b0ff")
 	)
 	(label "INB+"
 		(at 63.5 132.08 0)
@@ -3333,7 +3708,7 @@
 		)
 		(uuid "8c4c6efa-b789-4e4f-b23f-b8b7b8995ed3")
 	)
-	(label "IN1-"
+	(label "INA-"
 		(at 63.5 86.36 0)
 		(effects
 			(font
@@ -3342,6 +3717,26 @@
 			(justify left bottom)
 		)
 		(uuid "a1608b32-84d0-4567-b87c-0c15f4d75f93")
+	)
+	(label "INA+"
+		(at 127 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5e0d622-fe7f-472c-b764-ae6596e15de1")
+	)
+	(label "INB+"
+		(at 127 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b38c5078-376d-4beb-998a-d2c8a9802ba0")
 	)
 	(label "INB-"
 		(at 63.5 142.24 0)
@@ -3386,16 +3781,16 @@
 		)
 		(uuid "448d19ed-63d4-426d-bd1b-36d272c0f6c9")
 	)
-	(hierarchical_label "SENSE-"
+	(hierarchical_label "SENSE1-"
 		(shape input)
-		(at 38.1 109.22 180)
+		(at 127 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4a54ed72-fa28-441c-8bf1-0d02328e126f")
+		(uuid "466b9638-1e6d-4a3d-b8bf-03424554989c")
 	)
 	(hierarchical_label "SPI_CLK"
 		(shape input)
@@ -3408,7 +3803,7 @@
 		)
 		(uuid "4ce3c9c6-ff35-4fba-a2af-2fcd743b16d9")
 	)
-	(hierarchical_label "IN-"
+	(hierarchical_label "IN1-"
 		(shape input)
 		(at 38.1 86.36 180)
 		(effects
@@ -3419,9 +3814,20 @@
 		)
 		(uuid "57819d9b-5360-45f5-8001-e5f652cd1c7c")
 	)
+	(hierarchical_label "SENSE1+"
+		(shape input)
+		(at 127 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c22256c-3fa1-463b-9d55-db142f9697d5")
+	)
 	(hierarchical_label "SENSE2+"
 		(shape input)
-		(at 38.1 147.32 180)
+		(at 127 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3463,17 +3869,6 @@
 		)
 		(uuid "865c46a7-8073-41ed-86b5-b8565111e1e8")
 	)
-	(hierarchical_label "SENSE+"
-		(shape input)
-		(at 38.1 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "878a6557-b9ee-4f30-a102-b158ed449cf9")
-	)
 	(hierarchical_label "EXC2-"
 		(shape bidirectional)
 		(at 26.67 168.91 180)
@@ -3487,7 +3882,7 @@
 	)
 	(hierarchical_label "SENSE2-"
 		(shape input)
-		(at 38.1 149.86 180)
+		(at 127 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3496,7 +3891,7 @@
 		)
 		(uuid "93bb9965-fe11-40a2-b316-abda96fa0f65")
 	)
-	(hierarchical_label "IN+"
+	(hierarchical_label "IN1+"
 		(shape input)
 		(at 38.1 76.2 180)
 		(effects
@@ -3518,7 +3913,7 @@
 		)
 		(uuid "a112c499-cccd-4c96-ac17-9629b6a293d3")
 	)
-	(hierarchical_label "EXC-"
+	(hierarchical_label "EXC1-"
 		(shape bidirectional)
 		(at 22.86 86.36 180)
 		(effects
@@ -3562,7 +3957,7 @@
 		)
 		(uuid "d47f4116-39be-4fe6-9d01-40ffb9fe5bd2")
 	)
-	(hierarchical_label "EXC+"
+	(hierarchical_label "EXC1+"
 		(shape bidirectional)
 		(at 24.13 82.55 180)
 		(effects
@@ -3672,93 +4067,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 33.02 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f89de66-23db-41ed-bbcd-b12017fe9993")
-		(property "Reference" "TP6"
-			(at 35.56 160.5279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 35.56 163.0679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 38.1 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 33.02 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53d5a327-c4db-4dce-8588-7735d815a3f5")
-		)
-		(instances
-			(project "pi-hat-ads124s08_r1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "karl-marel-atomics:KR0603_100R")
-		(at 53.34 142.24 270)
-		(mirror x)
+		(lib_id "karl-marel-atomics:KR0603_1k")
+		(at 53.34 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14e13c33-ec31-485d-9b6d-758a1d9a8a0c")
-		(property "Reference" "R17"
-			(at 53.34 137.16 90)
+		(uuid "10172473-5162-4457-9209-1305d06940fc")
+		(property "Reference" "R9"
+			(at 53.34 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100R"
-			(at 53.34 139.7 90)
+		(property "Value" "1k"
+			(at 53.34 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +4093,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 53.34 142.24 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +4102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 142.24 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +4111,7 @@
 			)
 		)
 		(property "Description" "Resistor, 0603"
-			(at 53.34 142.24 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,8 +4119,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22775"
-			(at 53.34 142.24 0)
+		(property "MPN" "0603WAF1001T5E"
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,17 +4128,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1000T5E"
-			(at 53.34 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 53.34 142.24 90)
+		(property "LCSC Part #" "C21190"
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,15 +4138,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3958b836-481e-4aec-ab38-99acf8db9c7e")
+			(uuid "5d99c05a-42fa-45a3-b96d-eae4fa6498b5")
 		)
 		(pin "2"
-			(uuid "e29e9eed-06ff-4023-95cc-a33a172a4cad")
+			(uuid "77e3147f-87c8-4587-9754-21e132729ced")
 		)
 		(instances
-			(project "pi-hat-hx711_r1"
+			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3964,17 +4282,17 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0603_330nF")
-		(at 180.34 35.56 0)
+		(lib_id "karl-marel-atomics:KC0603_220nF")
+		(at 193.04 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3cb25da2-f631-4556-a852-d270895d40d0")
-		(property "Reference" "C18"
-			(at 182.88 33.7871 0)
+		(uuid "2cfcbb7c-ff4c-4b86-8960-859ba11384af")
+		(property "Reference" "C9"
+			(at 195.58 33.7871 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,8 +4300,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330nF"
-			(at 182.88 36.3271 0)
+		(property "Value" "220nF"
+			(at 195.58 36.3271 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +4310,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 179.832 39.37 0)
+			(at 192.532 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +4319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 35.56 0)
+			(at 193.04 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4328,7 @@
 			)
 		)
 		(property "Description" "25V, X7R"
-			(at 180.34 39.37 0)
+			(at 193.04 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,8 +4336,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1615"
-			(at 180.34 35.56 0)
+		(property "MPN" "CL10B224KA8NNNC"
+			(at 193.04 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,25 +4345,111 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603B334K250NT"
-			(at 180.34 35.56 0)
+		(property "LCSC Part #" "C21120"
+			(at 193.04 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "31052c50-7df6-4418-b140-9fe8f574db88")
 		)
 		(pin "1"
-			(uuid "3812b7a7-4100-4e56-877d-13a0ea29a29b")
+			(uuid "bad8ba1f-2477-420b-8af9-5529810d2908")
+		)
+		(pin "2"
+			(uuid "571c1d1a-dfad-479a-b361-34ee505cda92")
 		)
 		(instances
-			(project ""
+			(project "pi-hat-ads124s08_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "C18")
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-marel-atomics:KR0603_1k")
+		(at 53.34 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5056a8ef-4af1-482f-99a5-c5e60cfdf210")
+		(property "Reference" "R10"
+			(at 53.34 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 53.34 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0603"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21190"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d4c0bf0-9dde-480e-a996-59c5a9c31104")
+		)
+		(pin "2"
+			(uuid "804b4725-8112-4024-a505-3f9accba0506")
+		)
+		(instances
+			(project "pi-hat-ads124s08_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4112,6 +4516,92 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-marel-atomics:KR0603_10k")
+		(at 53.34 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5695c93f-e635-4cb4-b953-3756c186c42d")
+		(property "Reference" "R4"
+			(at 53.34 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 53.34 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0603"
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e6b1b9a-ba21-4b14-a460-ab9199c18661")
+		)
+		(pin "1"
+			(uuid "1e97fd9c-eb64-4fba-a0d0-6449dfeaca74")
+		)
+		(instances
+			(project "pi-hat-ads124s08_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4209,362 +4699,6 @@
 			(project "pi-hat-ads124s08_r1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "karl-marel-atomics:ADS124S08IPBSR")
-		(at 68.58 38.1 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "798c6965-5ce7-4fce-9631-76096c78e016")
-		(property "Reference" "U2"
-			(at 77.47 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS124S08"
-			(at 77.47 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-32_5x5mm_P0.5mm"
-			(at 68.58 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ADS124S08"
-			(at 70.866 16.256 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "24bit adc sigma delta 4ksps tqfp32"
-			(at 71.12 14.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2870171"
-			(at 71.374 16.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ADS124S08IPBSR"
-			(at 68.58 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "23"
-			(uuid "acdb6c10-4cb4-436a-8e98-2e7996f6a776")
-		)
-		(pin "22"
-			(uuid "5527ee4c-eaf4-4819-a3e9-bec3e1eb5d2f")
-		)
-		(pin "21"
-			(uuid "3c95e2d1-0b6f-4e67-972b-a8360d4f09d1")
-		)
-		(pin "11"
-			(uuid "a1ca0273-5d1e-4534-8abf-57454a775e57")
-		)
-		(pin "18"
-			(uuid "b0bf162a-6157-41f7-a325-d57cd662beb1")
-		)
-		(pin "19"
-			(uuid "b7c94b98-496d-49c1-8ae1-3e7698f53bcd")
-		)
-		(pin "10"
-			(uuid "fdffbc19-5b0a-43cf-a2c7-cb2970b1d983")
-		)
-		(pin "17"
-			(uuid "2cae1cac-5cb3-4151-83b9-0bfa484176e3")
-		)
-		(pin "9"
-			(uuid "fd24e7da-160e-497e-9cca-8a9c3d560eb2")
-		)
-		(pin "12"
-			(uuid "99c3601f-cc7a-4774-85df-b5520156de0b")
-		)
-		(pin "8"
-			(uuid "ac671f84-df66-4453-a008-19f2041d6069")
-		)
-		(pin "13"
-			(uuid "f97d50b6-e3c0-44c1-99e0-893154b14de0")
-		)
-		(pin "28"
-			(uuid "fce1b5de-f37f-4faa-b503-ec75d360dc1f")
-		)
-		(pin "1"
-			(uuid "7d1b66c3-16cc-48a7-aaa6-8c4974b33980")
-		)
-		(pin "31"
-			(uuid "ad33802a-76a4-4a9e-b089-e557510c4ffa")
-		)
-		(pin "14"
-			(uuid "0f6f79fe-bd0d-4984-97bd-22305c74a787")
-		)
-		(pin "16"
-			(uuid "59866223-4083-42ce-922f-1d27c2ebef16")
-		)
-		(pin "20"
-			(uuid "61125096-2dc7-4fe5-aad8-39fd4458c52d")
-		)
-		(pin "26"
-			(uuid "15aa811f-bc14-41cb-be34-71aed22e4355")
-		)
-		(pin "27"
-			(uuid "eae693e8-0281-41b6-b102-32fa4f1701dd")
-		)
-		(pin "29"
-			(uuid "2a70c564-62ea-4c26-87c6-1ba451195f6b")
-		)
-		(pin "30"
-			(uuid "86d1e623-cac0-45d0-8fc6-1e2a24276875")
-		)
-		(pin "24"
-			(uuid "3d885487-89e9-4956-80ec-ffdf87861c43")
-		)
-		(pin "25"
-			(uuid "3a5d586b-2b72-44cb-bfa4-7ba8e0d4bbbd")
-		)
-		(pin "7"
-			(uuid "a9b1e042-f25f-4c81-ad63-0984e1a6ac9e")
-		)
-		(pin "32"
-			(uuid "f13d5cd7-2f83-4a75-a287-8981c41321ea")
-		)
-		(pin "2"
-			(uuid "e4cefff9-531b-4b26-adcc-cb3e70de38e3")
-		)
-		(pin "3"
-			(uuid "26c69d9e-fc75-4b1d-8c98-9f3b3c16434f")
-		)
-		(pin "4"
-			(uuid "03b8aa9b-7a33-4600-9ea2-b036eb0a2cb3")
-		)
-		(pin "5"
-			(uuid "ce73c1d4-1733-40c6-abfe-2660f2b1590f")
-		)
-		(pin "6"
-			(uuid "fce61143-7e2a-4cc5-afb4-2749f38994a3")
-		)
-		(pin "15"
-			(uuid "3f1277a8-876b-474c-b73c-586083a731d3")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "karl-marel-atomics:ADS124S08IPBSR")
-		(at 152.4 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "798c6965-5ce7-4fce-9631-76096c78e016")
-		(property "Reference" "U2"
-			(at 161.29 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS124S08"
-			(at 161.29 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-32_5x5mm_P0.5mm"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ADS124S08"
-			(at 154.686 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "24bit adc sigma delta 4ksps tqfp32"
-			(at 154.94 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C2870171"
-			(at 155.194 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ADS124S08IPBSR"
-			(at 152.4 125.984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "23"
-			(uuid "acdb6c10-4cb4-436a-8e98-2e7996f6a776")
-		)
-		(pin "22"
-			(uuid "5527ee4c-eaf4-4819-a3e9-bec3e1eb5d2f")
-		)
-		(pin "21"
-			(uuid "3c95e2d1-0b6f-4e67-972b-a8360d4f09d1")
-		)
-		(pin "11"
-			(uuid "a1ca0273-5d1e-4534-8abf-57454a775e57")
-		)
-		(pin "18"
-			(uuid "b0bf162a-6157-41f7-a325-d57cd662beb1")
-		)
-		(pin "19"
-			(uuid "b7c94b98-496d-49c1-8ae1-3e7698f53bcd")
-		)
-		(pin "10"
-			(uuid "fdffbc19-5b0a-43cf-a2c7-cb2970b1d983")
-		)
-		(pin "17"
-			(uuid "2cae1cac-5cb3-4151-83b9-0bfa484176e3")
-		)
-		(pin "9"
-			(uuid "fd24e7da-160e-497e-9cca-8a9c3d560eb2")
-		)
-		(pin "12"
-			(uuid "99c3601f-cc7a-4774-85df-b5520156de0b")
-		)
-		(pin "8"
-			(uuid "ac671f84-df66-4453-a008-19f2041d6069")
-		)
-		(pin "13"
-			(uuid "f97d50b6-e3c0-44c1-99e0-893154b14de0")
-		)
-		(pin "28"
-			(uuid "fce1b5de-f37f-4faa-b503-ec75d360dc1f")
-		)
-		(pin "1"
-			(uuid "7d1b66c3-16cc-48a7-aaa6-8c4974b33980")
-		)
-		(pin "31"
-			(uuid "ad33802a-76a4-4a9e-b089-e557510c4ffa")
-		)
-		(pin "14"
-			(uuid "0f6f79fe-bd0d-4984-97bd-22305c74a787")
-		)
-		(pin "16"
-			(uuid "59866223-4083-42ce-922f-1d27c2ebef16")
-		)
-		(pin "20"
-			(uuid "61125096-2dc7-4fe5-aad8-39fd4458c52d")
-		)
-		(pin "26"
-			(uuid "15aa811f-bc14-41cb-be34-71aed22e4355")
-		)
-		(pin "27"
-			(uuid "eae693e8-0281-41b6-b102-32fa4f1701dd")
-		)
-		(pin "29"
-			(uuid "2a70c564-62ea-4c26-87c6-1ba451195f6b")
-		)
-		(pin "30"
-			(uuid "86d1e623-cac0-45d0-8fc6-1e2a24276875")
-		)
-		(pin "24"
-			(uuid "3d885487-89e9-4956-80ec-ffdf87861c43")
-		)
-		(pin "25"
-			(uuid "3a5d586b-2b72-44cb-bfa4-7ba8e0d4bbbd")
-		)
-		(pin "7"
-			(uuid "a9b1e042-f25f-4c81-ad63-0984e1a6ac9e")
-		)
-		(pin "32"
-			(uuid "f13d5cd7-2f83-4a75-a287-8981c41321ea")
-		)
-		(pin "2"
-			(uuid "e4cefff9-531b-4b26-adcc-cb3e70de38e3")
-		)
-		(pin "3"
-			(uuid "26c69d9e-fc75-4b1d-8c98-9f3b3c16434f")
-		)
-		(pin "4"
-			(uuid "03b8aa9b-7a33-4600-9ea2-b036eb0a2cb3")
-		)
-		(pin "5"
-			(uuid "ce73c1d4-1733-40c6-abfe-2660f2b1590f")
-		)
-		(pin "6"
-			(uuid "fce61143-7e2a-4cc5-afb4-2749f38994a3")
-		)
-		(pin "15"
-			(uuid "3f1277a8-876b-474c-b73c-586083a731d3")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4748,34 +4882,35 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KR0603_100R")
-		(at 53.34 132.08 270)
-		(mirror x)
+		(lib_id "karl-marel-atomics:ADS124S08IPBSR")
+		(at 152.4 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "846d806d-9d31-4098-8731-873836a10704")
-		(property "Reference" "R16"
-			(at 53.34 127 90)
+		(uuid "798c6965-5ce7-4fce-9631-76096c78e017")
+		(property "Reference" "U2"
+			(at 161.29 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100R"
-			(at 53.34 129.54 90)
+		(property "Value" "ADS124S08"
+			(at 161.29 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 53.34 132.08 0)
+		(property "Footprint" "Package_QFP:TQFP-32_5x5mm_P0.5mm"
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,8 +4918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 53.34 132.08 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ADS124S08"
+			(at 154.686 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,8 +4927,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, 0603"
-			(at 53.34 132.08 0)
+		(property "Description" "24bit adc sigma delta 4ksps tqfp32"
+			(at 154.94 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,8 +4936,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22775"
-			(at 53.34 132.08 0)
+		(property "LCSC Part #" "C2870171"
+			(at 155.194 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,8 +4945,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1000T5E"
-			(at 53.34 132.08 0)
+		(property "MPN" "ADS124S08IPBSR"
+			(at 152.4 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,26 +4954,285 @@
 				(hide yes)
 			)
 		)
-		(property "jlcbasic" "basic"
-			(at 53.34 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "23"
+			(uuid "acdb6c10-4cb4-436a-8e98-2e7996f6a777")
+		)
+		(pin "22"
+			(uuid "5527ee4c-eaf4-4819-a3e9-bec3e1eb5d30")
+		)
+		(pin "21"
+			(uuid "3c95e2d1-0b6f-4e67-972b-a8360d4f09d2")
+		)
+		(pin "11"
+			(uuid "a1ca0273-5d1e-4534-8abf-57454a775e58")
+		)
+		(pin "18"
+			(uuid "b0bf162a-6157-41f7-a325-d57cd662beb2")
+		)
+		(pin "19"
+			(uuid "b7c94b98-496d-49c1-8ae1-3e7698f53bce")
+		)
+		(pin "10"
+			(uuid "fdffbc19-5b0a-43cf-a2c7-cb2970b1d984")
+		)
+		(pin "17"
+			(uuid "2cae1cac-5cb3-4151-83b9-0bfa484176e4")
+		)
+		(pin "9"
+			(uuid "fd24e7da-160e-497e-9cca-8a9c3d560eb3")
+		)
+		(pin "12"
+			(uuid "99c3601f-cc7a-4774-85df-b5520156de0c")
+		)
+		(pin "8"
+			(uuid "ac671f84-df66-4453-a008-19f2041d606a")
+		)
+		(pin "13"
+			(uuid "f97d50b6-e3c0-44c1-99e0-893154b14de1")
+		)
+		(pin "28"
+			(uuid "fce1b5de-f37f-4faa-b503-ec75d360dc20")
 		)
 		(pin "1"
-			(uuid "3b31491b-7512-4f17-a770-fd586f2c5ce7")
+			(uuid "7d1b66c3-16cc-48a7-aaa6-8c4974b33981")
+		)
+		(pin "31"
+			(uuid "ad33802a-76a4-4a9e-b089-e557510c4ffb")
+		)
+		(pin "14"
+			(uuid "0f6f79fe-bd0d-4984-97bd-22305c74a788")
+		)
+		(pin "16"
+			(uuid "59866223-4083-42ce-922f-1d27c2ebef17")
+		)
+		(pin "20"
+			(uuid "61125096-2dc7-4fe5-aad8-39fd4458c52e")
+		)
+		(pin "26"
+			(uuid "15aa811f-bc14-41cb-be34-71aed22e4356")
+		)
+		(pin "27"
+			(uuid "eae693e8-0281-41b6-b102-32fa4f1701de")
+		)
+		(pin "29"
+			(uuid "2a70c564-62ea-4c26-87c6-1ba451195f6c")
+		)
+		(pin "30"
+			(uuid "86d1e623-cac0-45d0-8fc6-1e2a24276876")
+		)
+		(pin "24"
+			(uuid "3d885487-89e9-4956-80ec-ffdf87861c44")
+		)
+		(pin "25"
+			(uuid "3a5d586b-2b72-44cb-bfa4-7ba8e0d4bbbe")
+		)
+		(pin "7"
+			(uuid "a9b1e042-f25f-4c81-ad63-0984e1a6ac9f")
+		)
+		(pin "32"
+			(uuid "f13d5cd7-2f83-4a75-a287-8981c41321eb")
 		)
 		(pin "2"
-			(uuid "5a896366-9bff-4134-a2f3-07e478b50ac8")
+			(uuid "e4cefff9-531b-4b26-adcc-cb3e70de38e4")
+		)
+		(pin "3"
+			(uuid "26c69d9e-fc75-4b1d-8c98-9f3b3c164350")
+		)
+		(pin "4"
+			(uuid "03b8aa9b-7a33-4600-9ea2-b036eb0a2cb4")
+		)
+		(pin "5"
+			(uuid "ce73c1d4-1733-40c6-abfe-2660f2b15910")
+		)
+		(pin "6"
+			(uuid "fce61143-7e2a-4cc5-afb4-2749f38994a4")
+		)
+		(pin "15"
+			(uuid "3f1277a8-876b-474c-b73c-586083a731d4")
 		)
 		(instances
-			(project "pi-hat-hx711_r1"
+			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "R16")
+					(reference "U2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-marel-atomics:ADS124S08IPBSR")
+		(at 68.58 38.1 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "798c6965-5ce7-4fce-9631-76096c78e018")
+		(property "Reference" "U2"
+			(at 77.47 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS124S08"
+			(at 77.47 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-32_5x5mm_P0.5mm"
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ADS124S08"
+			(at 70.866 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "24bit adc sigma delta 4ksps tqfp32"
+			(at 71.12 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2870171"
+			(at 71.374 16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ADS124S08IPBSR"
+			(at 68.58 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "acdb6c10-4cb4-436a-8e98-2e7996f6a778")
+		)
+		(pin "22"
+			(uuid "5527ee4c-eaf4-4819-a3e9-bec3e1eb5d31")
+		)
+		(pin "21"
+			(uuid "3c95e2d1-0b6f-4e67-972b-a8360d4f09d3")
+		)
+		(pin "11"
+			(uuid "a1ca0273-5d1e-4534-8abf-57454a775e59")
+		)
+		(pin "18"
+			(uuid "b0bf162a-6157-41f7-a325-d57cd662beb3")
+		)
+		(pin "19"
+			(uuid "b7c94b98-496d-49c1-8ae1-3e7698f53bcf")
+		)
+		(pin "10"
+			(uuid "fdffbc19-5b0a-43cf-a2c7-cb2970b1d985")
+		)
+		(pin "17"
+			(uuid "2cae1cac-5cb3-4151-83b9-0bfa484176e5")
+		)
+		(pin "9"
+			(uuid "fd24e7da-160e-497e-9cca-8a9c3d560eb4")
+		)
+		(pin "12"
+			(uuid "99c3601f-cc7a-4774-85df-b5520156de0d")
+		)
+		(pin "8"
+			(uuid "ac671f84-df66-4453-a008-19f2041d606b")
+		)
+		(pin "13"
+			(uuid "f97d50b6-e3c0-44c1-99e0-893154b14de2")
+		)
+		(pin "28"
+			(uuid "fce1b5de-f37f-4faa-b503-ec75d360dc21")
+		)
+		(pin "1"
+			(uuid "7d1b66c3-16cc-48a7-aaa6-8c4974b33982")
+		)
+		(pin "31"
+			(uuid "ad33802a-76a4-4a9e-b089-e557510c4ffc")
+		)
+		(pin "14"
+			(uuid "0f6f79fe-bd0d-4984-97bd-22305c74a789")
+		)
+		(pin "16"
+			(uuid "59866223-4083-42ce-922f-1d27c2ebef18")
+		)
+		(pin "20"
+			(uuid "61125096-2dc7-4fe5-aad8-39fd4458c52f")
+		)
+		(pin "26"
+			(uuid "15aa811f-bc14-41cb-be34-71aed22e4357")
+		)
+		(pin "27"
+			(uuid "eae693e8-0281-41b6-b102-32fa4f1701df")
+		)
+		(pin "29"
+			(uuid "2a70c564-62ea-4c26-87c6-1ba451195f6d")
+		)
+		(pin "30"
+			(uuid "86d1e623-cac0-45d0-8fc6-1e2a24276877")
+		)
+		(pin "24"
+			(uuid "3d885487-89e9-4956-80ec-ffdf87861c45")
+		)
+		(pin "25"
+			(uuid "3a5d586b-2b72-44cb-bfa4-7ba8e0d4bbbf")
+		)
+		(pin "7"
+			(uuid "a9b1e042-f25f-4c81-ad63-0984e1a6aca0")
+		)
+		(pin "32"
+			(uuid "f13d5cd7-2f83-4a75-a287-8981c41321ec")
+		)
+		(pin "2"
+			(uuid "e4cefff9-531b-4b26-adcc-cb3e70de38e5")
+		)
+		(pin "3"
+			(uuid "26c69d9e-fc75-4b1d-8c98-9f3b3c164351")
+		)
+		(pin "4"
+			(uuid "03b8aa9b-7a33-4600-9ea2-b036eb0a2cb5")
+		)
+		(pin "5"
+			(uuid "ce73c1d4-1733-40c6-abfe-2660f2b15911")
+		)
+		(pin "6"
+			(uuid "fce61143-7e2a-4cc5-afb4-2749f38994a5")
+		)
+		(pin "15"
+			(uuid "3f1277a8-876b-474c-b73c-586083a731d5")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
@@ -5007,114 +5401,17 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KR0603_100R")
-		(at 53.34 86.36 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8c13f90-4097-4a7a-8cd5-882143c52e88")
-		(property "Reference" "R4"
-			(at 53.34 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 53.34 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 53.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, 0603"
-			(at 53.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C22775"
-			(at 53.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF1000T5E"
-			(at 53.34 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 53.34 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9464624c-617a-4bbe-aec0-1ce62fee3c74")
-		)
-		(pin "2"
-			(uuid "68c6add5-bf15-4e6a-9efc-8ec30e67bdb8")
-		)
-		(instances
-			(project "pi-hat-hx711_r1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "karl-marel-atomics:KC0603_100nF")
+		(lib_id "karl-marel-atomics:KC0603_10nF_C0G")
 		(at 63.5 81.28 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc96e4ac-f9f5-4349-b56d-6276d2df14fb")
-		(property "Reference" "C2"
-			(at 60.96 79.5071 0)
+		(uuid "ca59a761-fc1c-408b-a9b3-a15cad20e678")
+		(property "Reference" "C17"
+			(at 66.04 79.5071 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,8 +5419,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 60.96 82.0471 0)
+		(property "Value" "10nF"
+			(at 66.04 82.0471 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +5429,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 64.008 85.09 0)
+			(at 63.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,8 +5446,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V, X7R"
-			(at 63.5 85.09 0)
+		(property "Description" "50V, NP0"
+			(at 63.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,8 +5455,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
-			(at 63.754 85.09 0)
+		(property "MPN" "CC0603JRNPO9BN103"
+			(at 63.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,16 +5464,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C14663"
-			(at 63.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
+		(property "LCSC Part #" "C389113"
 			(at 63.5 81.28 0)
 			(effects
 				(font
@@ -5186,15 +5474,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "deb6c83a-3259-4cfe-8dae-49e0131394b4")
+			(uuid "056150dd-f626-4d68-8166-f1890557dbfd")
 		)
 		(pin "1"
-			(uuid "4558e63d-0109-4050-8106-bce61baccd0c")
+			(uuid "b6981068-fdfc-41e6-a07a-7b962aa1c340")
 		)
 		(instances
-			(project "pi-hat-hx711_r1"
+			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "C2")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -5299,16 +5587,15 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KR0603_100R")
-		(at 53.34 76.2 270)
-		(mirror x)
+		(lib_id "karl-marel-atomics:KR0603_10k")
+		(at 53.34 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf5aa4b8-554e-4e1d-8815-21292a53c228")
+		(uuid "d479643f-a8fb-4615-be70-4df10264ed03")
 		(property "Reference" "R2"
 			(at 53.34 71.12 90)
 			(effects
@@ -5317,7 +5604,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "10k"
 			(at 53.34 73.66 90)
 			(effects
 				(font
@@ -5352,7 +5639,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C22775"
+		(property "MPN" "0603WAF1002T5E"
 			(at 53.34 76.2 0)
 			(effects
 				(font
@@ -5361,7 +5648,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF1000T5E"
+		(property "LCSC Part #" "C25804"
 			(at 53.34 76.2 0)
 			(effects
 				(font
@@ -5369,24 +5656,15 @@
 				)
 				(hide yes)
 			)
-		)
-		(property "jlcbasic" "basic"
-			(at 53.34 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1efe891a-d475-409f-9d97-a5bb983324e8")
 		)
 		(pin "2"
-			(uuid "b0bd8b0d-5b11-4366-8e6a-73f47dec48ff")
+			(uuid "b08ee707-f282-42dc-a96f-db1df2a41e9a")
+		)
+		(pin "1"
+			(uuid "7ccd7eb2-07f6-41a4-b673-89e7aa5ceb24")
 		)
 		(instances
-			(project "pi-hat-hx711_r1"
+			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
 					(reference "R2")
 					(unit 1)
@@ -5395,16 +5673,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 29.21 82.55 0)
+		(lib_id "karl-marel-atomics:KC0603_220nF")
+		(at 180.34 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e3beb5d2-e4ba-42b6-aa4c-35158a53573f")
-		(property "Reference" "TP1"
-			(at 31.75 77.9779 0)
+		(fields_autoplaced yes)
+		(uuid "e6e527a6-432d-4938-aafc-47846b94dc4e")
+		(property "Reference" "C5"
+			(at 182.88 33.7871 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,18 +5691,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 31.75 80.5179 0)
+		(property "Value" "220nF"
+			(at 182.88 36.3271 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 34.29 82.55 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 179.832 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 82.55 0)
+			(at 180.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,8 +5718,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 29.21 82.55 0)
+		(property "Description" "25V, X7R"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B224KA8NNNC"
+			(at 180.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21120"
+			(at 180.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,12 +5746,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7882ce67-63ec-4362-a144-c2533e91eabd")
+			(uuid "a8e02c39-509b-4741-bcab-1b036296cf45")
+		)
+		(pin "2"
+			(uuid "684befe9-ffc5-4d65-b489-bb04d6c65de7")
 		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
-					(reference "TP1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
