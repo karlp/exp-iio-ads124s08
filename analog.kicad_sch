@@ -3000,6 +3000,16 @@
 		)
 		(uuid "33805c7c-5031-44d1-a17a-d64731ee33ce")
 	)
+	(text "VDDA and... what? are my excitation choices?\nOffer solder jumpers for the IDAC?"
+		(exclude_from_sim no)
+		(at 59.182 163.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56b2792e-975b-4139-8d36-a1d65c1cb9fc")
+	)
 	(text "TI sez: 47R on allll serial lines, but... yolo"
 		(exclude_from_sim no)
 		(at 68.58 20.828 0)
@@ -3032,6 +3042,16 @@
 			)
 		)
 		(uuid "c5fe432b-dd92-422f-885c-ab0a233bd79b")
+	)
+	(text "But at least, one more diff pair?\nAnd pin headers for them?"
+		(exclude_from_sim no)
+		(at 179.832 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e1f02eba-5f5a-4dac-b483-e0d6d7b8b5aa")
 	)
 	(text "vdda is 5v\n"
 		(exclude_from_sim no)
@@ -3290,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 93.98) (xy 142.24 93.98)
+			(xy 127 99.06) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3640,7 +3660,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 91.44) (xy 142.24 91.44)
+			(xy 127 96.52) (xy 142.24 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3689,7 +3709,7 @@
 		(uuid "5edd3995-4318-414a-91ba-3e93017eee86")
 	)
 	(label "INA-"
-		(at 127 93.98 0)
+		(at 127 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3719,7 +3739,7 @@
 		(uuid "a1608b32-84d0-4567-b87c-0c15f4d75f93")
 	)
 	(label "INA+"
-		(at 127 91.44 0)
+		(at 127 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
