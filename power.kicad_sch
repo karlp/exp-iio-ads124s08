@@ -959,7 +959,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KC0603_1uF"
+		(symbol "karl-atomic-basic:KC0603_1uF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1025,6 +1025,15 @@
 				)
 			)
 			(property "LCSC Part #" "C15849"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "jlcbasic" "basic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1125,7 +1134,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KC0603_33pF"
+		(symbol "karl-atomic-basic:KC0603_33pF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1191,6 +1200,15 @@
 				)
 			)
 			(property "LCSC Part #" "C1663"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "jlcbasic" "basic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1291,7 +1309,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KC0805_10uF_25V"
+		(symbol "karl-atomic-basic:KC0805_10uF_25V"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1457,7 +1475,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KC0805_22uF_25V"
+		(symbol "karl-atomic-basic:KC0805_22uF_25V"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1623,7 +1641,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KR0603_100k"
+		(symbol "karl-atomic-basic:KR0603_100k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1689,6 +1707,15 @@
 				)
 			)
 			(property "LCSC Part #" "C25803"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "jlcbasic" "basic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1776,7 +1803,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KR0603_1R"
+		(symbol "karl-atomic-basic:KR0603_1R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1842,6 +1869,15 @@
 				)
 			)
 			(property "LCSC Part #" "C22936"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "jlcbasic" "basic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1929,7 +1965,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KR0603_360k"
+		(symbol "karl-atomic-basic:KR0603_360k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1995,6 +2031,15 @@
 				)
 			)
 			(property "LCSC Part #" "C23146"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "jlcbasic" "basic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3155,7 +3200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KR0603_360k")
+		(lib_id "karl-atomic-basic:KR0603_360k")
 		(at 127 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3252,7 +3297,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0805_10uF_25V")
+		(lib_id "karl-atomic-basic:KC0805_10uF_25V")
 		(at 149.86 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3349,7 +3394,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0805_22uF_25V")
+		(lib_id "karl-atomic-basic:KC0805_22uF_25V")
 		(at 81.28 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3446,7 +3491,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0805_22uF_25V")
+		(lib_id "karl-atomic-basic:KC0805_22uF_25V")
 		(at 93.98 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3849,7 +3894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0603_1uF")
+		(lib_id "karl-atomic-basic:KC0603_1uF")
 		(at 139.7 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4107,7 +4152,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KR0603_1R")
+		(lib_id "karl-atomic-basic:KR0603_1R")
 		(at 86.36 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4427,7 +4472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KR0603_100k")
+		(lib_id "karl-atomic-basic:KR0603_100k")
 		(at 127 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4524,7 +4569,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0805_22uF_25V")
+		(lib_id "karl-atomic-basic:KC0805_22uF_25V")
 		(at 104.14 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4621,7 +4666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0805_10uF_25V")
+		(lib_id "karl-atomic-basic:KC0805_10uF_25V")
 		(at 147.32 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4822,7 +4867,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0603_33pF")
+		(lib_id "karl-atomic-basic:KC0603_33pF")
 		(at 137.16 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)

@@ -2312,160 +2312,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-atomic-basic:KR0603_22R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "22R"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "0603WAF220JT5E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part #" "C23345"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_0603*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "KR0603_22R_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "KR0603_22R_1_1"
-				(text "0603"
-					(at 0 0 900)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "karl-marel-atomics:KC0603_100nF"
+		(symbol "karl-atomic-basic:KC0603_100nF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2631,7 +2478,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KC0603_1uF"
+		(symbol "karl-atomic-basic:KC0603_1uF"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2697,6 +2544,15 @@
 				)
 			)
 			(property "LCSC Part #" "C15849"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "jlcbasic" "basic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2797,7 +2653,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KR0603_0R"
+		(symbol "karl-atomic-basic:KR0603_0R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2863,6 +2719,15 @@
 				)
 			)
 			(property "MPN" "0603WAF0000T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "jlcbasic" "basic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2950,7 +2815,169 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:KR0603_3k9"
+		(symbol "karl-atomic-basic:KR0603_22R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22R"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0603WAF220JT5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C23345"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "jlcbasic" "basic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KR0603_22R_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KR0603_22R_1_1"
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "karl-atomic-basic:KR0603_3k9"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3016,6 +3043,15 @@
 				)
 			)
 			(property "LCSC Part #" "C23018"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "jlcbasic" "basic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3103,7 +3139,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:SMF5.0A"
+		(symbol "karl-atomic-basic:SMF5.0A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3271,7 +3307,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "karl-marel-atomics:SYM_LABEL"
+		(symbol "karl-atomic-basic:SYM_LABEL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6995,7 +7031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:SYM_LABEL")
+		(lib_id "karl-atomic-basic:SYM_LABEL")
 		(at 147.32 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7059,7 +7095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0603_100nF")
+		(lib_id "karl-atomic-basic:KC0603_100nF")
 		(at 66.04 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7308,7 +7344,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KR0603_0R")
+		(lib_id "karl-atomic-basic:KR0603_0R")
 		(at 167.64 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7491,7 +7527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:SMF5.0A")
+		(lib_id "karl-atomic-basic:SMF5.0A")
 		(at 190.5 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7647,6 +7683,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 210.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9665fbe8-1c4e-4ab2-830b-8e9964703685")
 		)
@@ -7728,7 +7773,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KR0603_3k9")
+		(lib_id "karl-atomic-basic:KR0603_3k9")
 		(at 101.6 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8353,7 +8398,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0603_1uF")
+		(lib_id "karl-atomic-basic:KC0603_1uF")
 		(at 127 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8702,6 +8747,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a72a7468-8e7e-482e-99de-47730a29a855")
 		)
@@ -8886,6 +8940,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 210.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d35dfa5-f684-4a2e-a209-cbd59e25bc87")
 		)
@@ -8963,6 +9026,15 @@
 			)
 		)
 		(property "LCSC Part #" "C23345"
+			(at 210.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
 			(at 210.82 48.26 0)
 			(effects
 				(font
@@ -9139,7 +9211,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KC0603_1uF")
+		(lib_id "karl-atomic-basic:KC0603_1uF")
 		(at 157.48 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9236,7 +9308,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KR0603_3k9")
+		(lib_id "karl-atomic-basic:KR0603_3k9")
 		(at 93.98 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9465,6 +9537,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 210.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b769a607-3295-4e0a-939c-e516cdb51282")
 		)
@@ -9547,7 +9628,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:KR0603_0R")
+		(lib_id "karl-atomic-basic:KR0603_0R")
 		(at 162.56 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9711,6 +9792,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 210.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "207744e7-7de5-4ad2-80cb-e7e7d5788348")
 		)
@@ -9727,7 +9817,7 @@
 		)
 	)
 	(symbol
-		(lib_id "karl-marel-atomics:SMF5.0A")
+		(lib_id "karl-atomic-basic:SMF5.0A")
 		(at 215.9 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10057,6 +10147,15 @@
 			)
 		)
 		(property "LCSC Part #" "C23345"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
 			(at 210.82 45.72 0)
 			(effects
 				(font
