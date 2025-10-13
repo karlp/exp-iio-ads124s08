@@ -7805,7 +7805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "jlc-extras:SolderJumper-2_P1.3mm_Open_TrianglePad0.9x1.8mm"
 			(at 97.79 180.34 0)
 			(effects
 				(font
