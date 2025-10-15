@@ -4387,7 +4387,7 @@
 	)
 	(text "VDDA and... what? are my excitation choices?\nOffer solder jumpers for the IDAC?\nNo, screw the idacs. Allow fiddling with VExcite instead"
 		(exclude_from_sim no)
-		(at 143.51 137.16 0)
+		(at 177.038 128.778 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4675,6 +4675,12 @@
 		(uuid "a7c6143b-0ca9-4c28-b2fc-39618f923a68")
 	)
 	(junction
+		(at 160.02 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7dd81f8-8031-44f2-b56e-a70ae3242837")
+	)
+	(junction
 		(at 96.52 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4721,6 +4727,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdc15fde-83c5-48ef-957c-257f118260bc")
+	)
+	(no_connect
+		(at 241.3 63.5)
+		(uuid "c5334a1a-1568-4dbb-b924-bc1f4f7e6cd0")
 	)
 	(wire
 		(pts
@@ -5271,6 +5281,16 @@
 			(type default)
 		)
 		(uuid "545eb285-4565-4d0a-b98b-b45ceb7a3c5d")
+	)
+	(wire
+		(pts
+			(xy 160.02 129.54) (xy 160.02 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d4fba3-8669-45ec-be9f-af58c8901d65")
 	)
 	(wire
 		(pts
@@ -5834,7 +5854,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 130.81) (xy 165.1 130.81)
+			(xy 157.48 129.54) (xy 160.02 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5944,7 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 128.27) (xy 160.02 128.27)
+			(xy 162.56 127) (xy 157.48 127)
 		)
 		(stroke
 			(width 0)
@@ -6074,6 +6094,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 129.54) (xy 162.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49b0a3f-283e-461b-b5a9-f2b5212d3116")
+	)
+	(wire
+		(pts
 			(xy 71.12 177.8) (xy 96.52 177.8)
 		)
 		(stroke
@@ -6101,6 +6131,16 @@
 			(type default)
 		)
 		(uuid "da8673ec-1aa3-4de5-a902-96792b448d4e")
+	)
+	(wire
+		(pts
+			(xy 160.02 137.16) (xy 160.02 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae164e9-96d9-4bf1-92cd-82c5f70fe4ee")
 	)
 	(wire
 		(pts
@@ -6333,7 +6373,7 @@
 		(uuid "0c9d1a80-63b1-4f1e-9326-a861a4dc7be7")
 	)
 	(label "AINCOM"
-		(at 165.1 130.81 0)
+		(at 162.56 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6533,7 +6573,7 @@
 		(uuid "bfe50e53-4670-447a-af3e-44c71c4efa06")
 	)
 	(label "V_Excite"
-		(at 165.1 128.27 0)
+		(at 162.56 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10089,6 +10129,103 @@
 		)
 	)
 	(symbol
+		(lib_id "karl-atomic-basic:KR0603_0R")
+		(at 160.02 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b6dbe8d-64fa-4c2e-99db-9b6a130ddddb")
+		(property "Reference" "R26"
+			(at 162.56 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 162.56 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 160.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0603"
+			(at 160.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21189"
+			(at 160.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 160.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
+			(at 160.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa4c17f9-6c75-4295-99cc-aa845e1a0f72")
+		)
+		(pin "1"
+			(uuid "a63575d8-b4a8-40da-8e12-0fc2860572e2")
+		)
+		(instances
+			(project "pi-hat-ads124s08_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "karl-atomic-basic:KC0603_100pF")
 		(at 83.82 152.4 0)
 		(unit 1)
@@ -11775,6 +11912,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 160.02 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8d9d5c5-d6b5-40c6-a5e0-c08e7e7f66c9")
+		(property "Reference" "#PWR030"
+			(at 160.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 160.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 160.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d393f04-1844-4458-b5d7-77dc37809d18")
+		)
+		(instances
+			(project "pi-hat-ads124s08_r1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c6a2984f-bea9-4fd5-89c5-8bfdade63ac6"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "karl-atomic-basic:KC1206_220nF_C0G")
 		(at 96.52 172.72 0)
 		(unit 1)
@@ -11959,7 +12162,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 154.94 128.27 0)
+		(at 152.4 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11969,7 +12172,7 @@
 		(fields_autoplaced yes)
 		(uuid "f33be950-4480-492c-8868-c11309381b0b")
 		(property "Reference" "J11"
-			(at 152.4 128.2699 0)
+			(at 149.86 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11978,7 +12181,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 152.4 130.8099 0)
+			(at 149.86 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11987,7 +12190,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical"
-			(at 154.94 128.27 0)
+			(at 152.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11996,7 +12199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 128.27 0)
+			(at 152.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12005,7 +12208,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 154.94 128.27 0)
+			(at 152.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12014,7 +12217,7 @@
 			)
 		)
 		(property "MPN" "WJ15EDGVC-3.81-2P"
-			(at 154.94 128.27 0)
+			(at 152.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12023,7 +12226,7 @@
 			)
 		)
 		(property "LCSC Part #" "C8396"
-			(at 154.94 128.27 0)
+			(at 152.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
